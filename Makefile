@@ -63,7 +63,7 @@ Xpublish:
 
 push-github: 
 	#for information purposes
-	git push source master:master
+	git push origin master:master
 	git push html gh-pages:master
 
 github:
@@ -75,7 +75,7 @@ github:
 	#assumes there is a GitHub remote called 'publish'
 	#git push <remote-name> <local-branch-name>:<remote-branch-name> as per GitHub user page specs.
 	#UNCOMMENT THIS after testing:
-	git push source master:master
+	git push origin master:master
 	git push html gh-pages:master
 	#other samples:
 	#git push git@github.com:elemoine/elemoine.github.io.git gh-pages:master
