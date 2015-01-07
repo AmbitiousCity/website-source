@@ -8,6 +8,7 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 GITHUB_PAGES_BRANCH=gh-pages
+PORT=8001
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
@@ -66,17 +67,28 @@ push-github:
 	git push origin master:master
 	git push html gh-pages:master
 
-github:
+gh-pages:
+	#moves content of the output directory to the 'gh-pages' branch
+	ghp-import -m "Published html output to gh-pages branch" -b gh-pages output
+
+pullSource:
+	#pulls the website source from GitHub
+	git pull origin master:master
+
+pushSource:
+	#pushes the website source to GitHub
+	git push origin master:master
+
+pushHtml:
 	#assumes that 'output' directory has the latest html files and that you've checked locally that the html is OK.
 	#publish
 	#ghp-import copies the output directory to the 'gh-pages' branch of the repository
-	ghp-import -m "Published html output to gh-pages branch" -b gh-pages output
+	#ghp-import -m "Published html output to gh-pages branch" -b gh-pages output
 	
 	#assumes there is a GitHub remote called 'publish'
 	#git push <remote-name> <local-branch-name>:<remote-branch-name> as per GitHub user page specs.
 	#UNCOMMENT THIS after testing:
-	git push origin master:master
-	git push html gh-pages:master
+	git push -f html gh-pages:master
 	#other samples:
 	#git push git@github.com:elemoine/elemoine.github.io.git gh-pages:master
 	#git push origin $(GITHUB_PAGES_BRANCH) #this is suitable when the remote branch=gh-pages (GitHub non-user pages)

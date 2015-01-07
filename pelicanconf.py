@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Michael Cumming'
+AUTHOR = u'Ambitious City'
 SITENAME = u'Ambitious City'
 SITEURL = ''
 TIMEZONE = 'America/Toronto'
@@ -22,6 +22,7 @@ ARTICLE_PATHS = ['articles/blog', 'articles/questions', 'articles/ideas', 'artic
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_CATEGORIES_ON_MENU = True
 #FAVICON = 'images/favicon.png'
+#SITELOGO = 'images/my_site_logo.png'
 
 #static content = 'pages'
 STATIC_PATHS = ['pages', 'pdfs', 'images'] # 'downloads']
@@ -37,7 +38,7 @@ DEFAULT_DATE = 'fs'
 TYPOGRIFY = True
 THEME = 'themes/bootstrap' 
 BOOTSTRAP_THEME = 'yeti' #others available 'cosmo' etc. all included already. See http://bootswatch.com/
-#SITELOGO = 'images/my_site_logo.png'
+
 
 DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
