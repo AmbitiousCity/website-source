@@ -25,7 +25,11 @@ DISPLAY_CATEGORIES_ON_MENU = True
 #SITELOGO = 'images/my_site_logo.png'
 
 #static content = 'pages'
-STATIC_PATHS = ['pages', 'pdfs', 'images'] # 'downloads']
+STATIC_PATHS = ['pages', 'pdfs', 'images', 'extra/favicon.ico'] # 'downloads']
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
+
 DISPLAY_PAGES_ON_MENU = False
 
 MENUITEMS = [
