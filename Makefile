@@ -57,7 +57,7 @@ pushHtml:
 	ghp-import -m "Published html output to gh-pages branch" -b gh-pages output
 
 	#git push <remote-name> <local-branch-name>:<remote-branch-name>
-	git push -f https://github.com/MGDS-PET/mgds-pet.github.io.git gh-pages:master
+	git push -f https://github.com/AmbitiousCity/ambitiouscity.github.io.git gh-pages:master
 
 serve:
 ifdef PORT
