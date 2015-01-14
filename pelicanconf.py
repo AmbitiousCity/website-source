@@ -18,7 +18,7 @@ LOAD_CONTENT_CACHE = False
 
 PATH = 'content'
 #dynamic content = 'articles'
-ARTICLE_PATHS = ['articles/blog', 'articles/questions', 'articles/ideas', 'articles/team']
+ARTICLE_PATHS = ['articles/blog', 'articles/questions', 'articles/ideas']
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_CATEGORIES_ON_MENU = True
 #FAVICON = 'images/favicon.png'
@@ -30,7 +30,7 @@ EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'}
 }
 
-DISPLAY_PAGES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = True
 
 MENUITEMS = [
 ('Home', '/'), #this may not be necessary
