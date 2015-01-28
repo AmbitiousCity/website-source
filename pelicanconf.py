@@ -18,22 +18,19 @@ LOAD_CONTENT_CACHE = False
 
 PATH = 'content'
 #dynamic content = 'articles'
-ARTICLE_PATHS = ['articles/blog', 'articles/questions', 'articles/ideas']
+ARTICLE_PATHS = ['articles/questions', 'articles/ideas']
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_CATEGORIES_ON_MENU = True
 #FAVICON = 'images/favicon.png'
 #SITELOGO = 'images/my_site_logo.png'
 
 #static content = 'pages'
-STATIC_PATHS = ['pages', 'pdfs', 'images', 'extra/favicon.ico'] # 'downloads']
-EXTRA_PATH_METADATA = {
-    'extra/favicon.ico': {'path': 'favicon.ico'}
-}
-
-DISPLAY_PAGES_ON_MENU = True
+STATIC_PATHS = ['pages', 'pdfs', 'images'] # 'downloads']
+FAVICON = 'images/favicon.ico'
+DISPLAY_PAGES_ON_MENU = False
 
 MENUITEMS = [
-('Home', '/'), #this may not be necessary
+#('Home', '/'), #home necessary?
 ]
     
 ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}.html'
@@ -42,7 +39,12 @@ DEFAULT_DATE = 'fs'
 TYPOGRIFY = True
 THEME = 'themes/bootstrap' 
 BOOTSTRAP_THEME = 'yeti' #others available 'cosmo' etc. all included already. See http://bootswatch.com/
+CUSTOM_CSS = 'theme/css/custom.css' #the location where you tell Pelican to put the file
 
+# Tell Pelican to change the path to 'theme/css/custom.css' in the output dir
+EXTRA_PATH_METADATA = {
+    'extra/custom.css': {'path': 'theme/css/custom.css'}
+}
 
 DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing

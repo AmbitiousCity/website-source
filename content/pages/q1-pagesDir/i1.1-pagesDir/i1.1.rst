@@ -1,7 +1,0 @@
-Idea page The purpose is to help others
-=========================================
-
-:title: Help others (page)
-:slug: help others
-
-Help others
