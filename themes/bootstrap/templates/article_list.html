@@ -3,8 +3,9 @@
     {% if articles %}
         {% for article in (articles_page.object_list if articles_page else articles) %}
             <article>
-                <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
-                {% if DISPLAY_ARTICLE_INFO_ON_INDEX %}
+            <h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3> 
+            <!-- <h4>{{article.author}}</h4> -->
+                <!-- {% if DISPLAY_ARTICLE_INFO_ON_INDEX %}
                     <div class="well well-sm">
                         {% include "includes/article_info.html" %}
                     </div>
@@ -12,9 +13,9 @@
                 <div class="summary">{{ article.summary }}
                     {% include 'includes/comment_count.html' %}
                     <a class="btn btn-default btn-xs" href="{{ SITEURL }}/{{ article.url }}">more ...</a>
-                </div>
+                </div> -->
             </article>
-            <hr/>
+            <!-- <hr/> -->
         {% endfor %}
     {% endif %}
 
