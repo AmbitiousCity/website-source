@@ -44,8 +44,10 @@ MENUITEMS = [
 # ('Sources', '/articles/sources')
 ]
     
-ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}.html'
-ARTICLE_URL = 'articles/{date:%Y}/{slug}.html'
+# ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}.html'
+# ARTICLE_URL = 'articles/{date:%Y}/{slug}.html'
+ARTICLE_SAVE_AS = 'articles/{category}/{slug}.html'
+ARTICLE_URL = 'articles/{category}/{slug}.html'
 DEFAULT_DATE = 'fs'
 TYPOGRIFY = True
 THEME = 'themes/bootstrap' 

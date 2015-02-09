@@ -2,7 +2,11 @@ Why are questions considered important?
 ==================================================
 
 :category: Questions
-:tag: meta2
+:summary: What is it about questions that makes them special?
+
+
+
+.. :tag: meta2
 
 Questions seem to precede ideas. For each good idea for cities, there seems to be a question that must inspire, or at least inform, the idea.
 
