@@ -10,8 +10,11 @@ This is an experimental site for urban design. The goal is to identify and refin
 Some of our motivating ideas
 --------------------------------------------------
 
-
-- A good *Question* is an important thing
+- A good *Question* is an important thing in that it encourages curiosity
 - *Questions* might inspire many *Ideas*
-- Most good *Ideas* are probably linked to good *Questions*
 - *Questions* and *Ideas* have likely been thought about and discussed before; hence, *Sources* are useful.
+
+
+Root Question
+--------------------------------------------------
+`How should cities be built? <{filename}../articles/q-how-should-cities-be-built.rst>`_

@@ -19,7 +19,7 @@ LOAD_CONTENT_CACHE = False
 PATH = 'content'
 
 #dynamic content = 'articles'
-ARTICLE_PATHS = ['articles/questions', 'articles/ideas', 'articles/sources']
+ARTICLE_PATHS = ['articles']   #questions', 'articles/ideas', 'articles/sources'
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_CATEGORIES_ON_MENU = True #set these manually in the content
 DISPLAY_CATEGORY_IN_BREADCRUMBS = True # only works for articles (dynamic content)
