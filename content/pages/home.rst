@@ -15,6 +15,6 @@ Some of our motivating ideas
 - *Questions* and *Ideas* have likely been thought about and discussed before; hence, *Sources* are useful.
 
 
-Initial Question
+Initial Question 01
 --------------------------------------------------
-`How should cities be built? <{filename} ../articles/q-how-should-cities-be-built.rst>`_
+`How should cities be built? <{filename} ../articles/root01/q-how-should-cities-be-built/q-how-should-cities-be-built.rst>`_
