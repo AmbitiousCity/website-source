@@ -23,11 +23,12 @@ ARTICLE_PATHS = ['articles']   #questions', 'articles/ideas', 'articles/sources'
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_CATEGORIES_ON_MENU = True #set these manually in the content
 DISPLAY_CATEGORY_IN_BREADCRUMBS = True # only works for articles (dynamic content)
+DISPLAY_BREADCRUMBS = False
 DISPLAY_ARTICLE_INFO_ON_INDEX = False
 SHOW_DATE_MODIFIED = True
 SHOW_ARTICLE_AUTHOR = True
-SHOW_ARTICLE_CATEGORY = True
-DISPLAY_BREADCRUMBS = True
+SHOW_ARTICLE_CATEGORY = False
+
 
 #FAVICON = 'images/favicon.png'
 #SITELOGO = 'images/my_site_logo.png'
@@ -52,11 +53,12 @@ DEFAULT_DATE = 'fs'
 TYPOGRIFY = True
 THEME = 'themes/bootstrap' 
 BOOTSTRAP_THEME = 'yeti' #others available 'cosmo' etc. all included already. See http://bootswatch.com/
+# CUSTOM_CSS = 'theme/css/custom.css' #the location where you tell Pelican to put the file
 CUSTOM_CSS = 'theme/css/custom.css' #the location where you tell Pelican to put the file
 
-# Tell Pelican to change the path to 'theme/css/custom.css' in the output dir
+# # Tell Pelican to change the path to 'theme/css/custom.css' in the output dir
 EXTRA_PATH_METADATA = {
-    'extra/custom.css': {'path': 'theme/css/custom.css'}
+    '/themes/bootstrap/static/css/custom.css': {'path': 'theme/css/custom.css'}
 }
 
 # DEFAULT_PAGINATION = False
