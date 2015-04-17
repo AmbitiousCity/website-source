@@ -14,9 +14,9 @@ production = 'root@localhost:22'
 dest_path = '/var/www'
 
 # Rackspace Cloud Files configuration settings
-env.cloudfiles_username = 'my_rackspace_username'
-env.cloudfiles_api_key = 'my_rackspace_api_key'
-env.cloudfiles_container = 'my_cloudfiles_container'
+# env.cloudfiles_username = 'my_rackspace_username'
+# env.cloudfiles_api_key = 'my_rackspace_api_key'
+# env.cloudfiles_container = 'my_cloudfiles_container'
 
 
 def clean():
@@ -61,13 +61,13 @@ def cf_upload():
           '-K {cloudfiles_api_key} '
           'upload -c {cloudfiles_container} .'.format(**env))
 
-@hosts(production)
-def publish():
-    local('pelican -s publishconf.py')
-    project.rsync_project(
-        remote_dir=dest_path,
-        exclude=".DS_Store",
-        local_dir=DEPLOY_PATH.rstrip('/') + '/',
-        delete=True,
-        extra_opts='-c',
-    )
+# @hosts(production)
+# def publish():
+#     local('pelican -s publishconf.py')
+#     project.rsync_project(
+#         remote_dir=dest_path,
+#         exclude=".DS_Store",
+#         local_dir=DEPLOY_PATH.rstrip('/') + '/',
+#         delete=True,
+#         extra_opts='-c',
+#     )

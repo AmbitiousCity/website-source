@@ -21,14 +21,13 @@ PATH = 'content'
 #dynamic content = 'articles'
 ARTICLE_PATHS = ['articles']   #questions', 'articles/ideas', 'articles/sources'
 USE_FOLDER_AS_CATEGORY = True
-DISPLAY_CATEGORIES_ON_MENU = True #set these manually in the content
+DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_CATEGORY_IN_BREADCRUMBS = True # only works for articles (dynamic content)
 DISPLAY_BREADCRUMBS = False
 DISPLAY_ARTICLE_INFO_ON_INDEX = False
 SHOW_DATE_MODIFIED = True
 SHOW_ARTICLE_AUTHOR = True
 SHOW_ARTICLE_CATEGORY = False
-
 
 #FAVICON = 'images/favicon.png'
 #SITELOGO = 'images/my_site_logo.png'
@@ -40,9 +39,10 @@ DISPLAY_PAGES_ON_MENU = False
 HIDE_SIDEBAR = True
 
 MENUITEMS = [
-# ('Question', '/articles/questions'),
-# ('Ideas', '/articles/ideas'),
-# ('Sources', '/articles/sources')
+	('Questions', '/category/questions.html'),
+	('Ideas', '/category/ideas.html'),
+	('Sources', '/category/sources.html'),
+	('About', '/pages/about.html')
 ]
     
 # ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}.html'
@@ -54,11 +54,27 @@ TYPOGRIFY = True
 THEME = 'themes/bootstrap' 
 BOOTSTRAP_THEME = 'yeti' #others available 'cosmo' etc. all included already. See http://bootswatch.com/
 # CUSTOM_CSS = 'theme/css/custom.css' #the location where you tell Pelican to put the file
-CUSTOM_CSS = 'theme/css/custom.css' #the location where you tell Pelican to put the file
+CUSTOM_CSS = 'theme/css/custom.css' #the location where you tell Pelican to put the file in output
 
 # # Tell Pelican to change the path to 'theme/css/custom.css' in the output dir
 EXTRA_PATH_METADATA = {
     '/themes/bootstrap/static/css/custom.css': {'path': 'theme/css/custom.css'}
+}
+PLUGIN_PATHS = ["plugins", "/plugins"]
+PLUGINS = [ "sitemap", "plantuml" ]
+
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
 }
 
 # DEFAULT_PAGINATION = False

@@ -1,0 +1,29 @@
+/* Generate in command line:
+//png previews, but svg works better as an end-product online
+dot -Tpng overall-process-1.gv -o overall-process-1.png */
+
+//splines=ortho, [nodesep=1]
+
+strict digraph G  {
+	node [style=filled fillcolor="#00ff005f"]
+
+	{rank=same; Questions; Ideas;}
+	
+	Questions->Ideas [dir="both", label="lead to"]
+	Ideas->Sources [dir="both", label="lead to"]
+	Questions->Sources [dir="both", label="lead to"]
+	
+}
+
+//digraph G  {
+	//node [shape=ellipse]
+
+	//node [style=filled fillcolor="#00ff005f"]
+	//{rank=same; Questions; Ideas;}
+	
+
+	//Questions->Ideas [label="lead to"]
+	//Ideas->Questions [label="lead to"]
+
+	//{Questions, Ideas}->Sources [label="have"]
+//}
