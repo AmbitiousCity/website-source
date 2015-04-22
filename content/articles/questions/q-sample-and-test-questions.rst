@@ -7,6 +7,13 @@ Sample and test urban design questions
 MC issues: why am I doing this?
 --------------------------------------------------
 
+David Byrne's insight
+	- You produce work for, and within, a community
+	- Your social context makes a huge difference
+	- This is what I have found. 
+	- Before Carol and her church and my St James, i didn't have a context; now I do; I don't think I realize that this is a big difference
+
+
 What am I searching for?
 	- Trying to find something I can focus on
 	- Trying to find a community in which I can perform well
@@ -27,13 +34,6 @@ What are my blockages?
 		- other than parenthood, marriage, church, choir
 		- that is more than most people!
 		- I am not happy enough with what others do not have
-
-What must I find? What am I searching for?
-	- Find a mission, that I do well, and that could earn money
-	- Some a reasonable non day-job
-	- Find mission -> do mission -> survive
-	- Carol will be of limited help for this. I need to do it on my own
-	- I won't listen to anyone other than myself
 
 What are the things that will join Carol and I together?
 	- Write together
@@ -60,6 +60,50 @@ What NEEDS to be fully professional?
 	- Design reasoning and representation
 	- Design writing
 
+Stuff and belongings
+--------------------------------------------------
+
+People acquire many belongings over their lifetime
+	- It costs money to acquire, store, use and dispose of
+	- More possessions does not correlate with greater happiness
+
+There is great inequality in possessions
+	- Some people have very little (nearby)
+
+Sometimes people lose their possessions
+	- Eg. Syrian refugees
+
+No possessions is not comfortable either
+	- No touchstones for memory (photographs)
+	- No art
+	- No books
+	- No mementoes
+	- No comforts
+
+We tend to associate with people who have similar levels of attachments to possessions as we do
+
+
+
+Cool idea: evidence and measurement
+--------------------------------------------------
+
+Why is 'evidence' a cool idea?
+	- Because people won't believe you when you tell them things
+	- They can't relate to what seems obvious to you
+	- That is my difficulty in life: people don't want to listen because they can't relate
+	- They assume that I know less than I do (because I come off as someone who knows little)
+	- I am not satisfied with life as it appears; I need something more;
+	- I must be the one to manufacture this MORE
+
+What is the 'evidence' idea?
+	- Show them what you mean (Show, don't tell)
+	- Don't talk about it; they won't believe you
+
+What kind of evidence is needed?
+	- Photographs and video
+	- Obvious
+	- Hidden in plain sight
+
 
 Introversion and personality types
 --------------------------------------------------
@@ -68,6 +112,9 @@ How should introverts influence the design of cities?
 	- Talk about their ideas within smaller groups
 	- Connect online
 	- Produce work that has obvious value
+
+What is the overall direction or approach?
+	- design commentary
 
 Innovative processes
 --------------------------------------------------
@@ -210,9 +257,5 @@ How should cities be designed?
 	- Is there a preferred method on how to design a modern city?
 
 
-Evidence and measurement
---------------------------------------------------
 
-Can cities by measured by one metric that measures how well it works, or how well it is designed?
-	- Do all these city rankings you read about all the time make any sense?
 
