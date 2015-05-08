@@ -2,6 +2,7 @@ Sample questions
 ==================================================
 
 :summary: Questions written to learn how to write questions
+:status: draft
 
 
 MC issues: why am I doing this?
