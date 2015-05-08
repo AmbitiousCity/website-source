@@ -8,21 +8,11 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ----
 
-Related
---------------------------------------------------
+**Parent:** Top level
 
-Parent
-..................................................
-
-Top level
-
-Ideas
-..................................................
-
+**Ideas:**
 `Build Cities with Green Spaces <{filename} ../ideas/i-build-cities-with-green-spaces.rst>`_ |
 `Build Cities with Green Spaces <{filename} ../ideas/i-build-cities-with-green-spaces.rst>`_
 
-Sources
-..................................................
-
+**Sources:** 
 `The economy of cities <{filename} ../sources/s-jacobs1970economy.rst>`_

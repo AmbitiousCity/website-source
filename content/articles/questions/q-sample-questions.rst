@@ -1,7 +1,7 @@
-Sample and test urban design questions
+Sample questions
 ==================================================
 
-:summary: Some sample questions
+:summary: Questions written to learn how to write questions
 
 
 MC issues: why am I doing this?
@@ -12,7 +12,6 @@ David Byrne's insight
 	- Your social context makes a huge difference
 	- This is what I have found. 
 	- Before Carol and her church and my St James, i didn't have a context; now I do; I don't think I realize that this is a big difference
-
 
 What am I searching for?
 	- Trying to find something I can focus on

@@ -10,20 +10,17 @@ Build Cities with Green Spaces
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-----
+.. figure:: ../../images/_1030273.RW2.jpg
+	:alt: sample Toronto street scene
+	:figwidth: 100%
+	:align: left
 
-Related
---------------------------------------------------
+|
 
-Parent
-..................................................
-
+**Parent:**
 `How should cities be built? <{filename} ../questions/q-how-should-cities-be-built.rst>`_
 
-Questions
-..................................................
+**Questions:**
 
-Sources
-..................................................
-
+**Sources:**
 `The economy of cities <{filename} ../sources/s-jacobs1970economy.rst>`_
