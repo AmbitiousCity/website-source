@@ -1,7 +1,6 @@
 Build Cities with Green Spaces
 ==================================================
 
-:category: Ideas
 :summary: Build cities with green spaces so residents can have easy access to nature.
 
 .. :slug: articles/ideas/build-cities-with-green-spaces
@@ -13,14 +12,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 .. figure:: /images/1030273.RW2.jpg
 	:alt: sample Toronto street scene
 	:figwidth: 100%
-	:align: left
 
-|
+	Store front on Parliament St, Toronto
 
-**Parent:**
+----
+
+**Inspired by question** (parent):
 `How should cities be built? <{filename} ../questions/q-how-should-cities-be-built.rst>`_
 
-**Questions:**
+**Questions that address this idea** (children): none yet
 
 **Sources:**
 `The economy of cities <{filename} ../sources/s-jacobs1970economy.rst>`_

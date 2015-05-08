@@ -7,7 +7,7 @@ SITENAME = u'Ambitious City'
 SITEURL = ''
 TIMEZONE = 'America/Toronto'
 DEFAULT_LANG = u'en'
-#GITHUB_URL = 'http://github.com/ametaireau/'
+#GITHUB_URL = 'http://github.com/MichaelCumming/'
 PDF_GENERATOR = False
 #for development
 LOAD_CONTENT_CACHE = False
@@ -23,7 +23,7 @@ ARTICLE_PATHS = ['articles']   #questions', 'articles/ideas', 'articles/sources'
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_CATEGORY_IN_BREADCRUMBS = True # only works for articles (dynamic content)
-DISPLAY_BREADCRUMBS = False
+DISPLAY_BREADCRUMBS = True
 DISPLAY_ARTICLE_INFO_ON_INDEX = False
 SHOW_DATE_MODIFIED = True
 SHOW_ARTICLE_AUTHOR = True
@@ -39,16 +39,21 @@ DISPLAY_PAGES_ON_MENU = False
 HIDE_SIDEBAR = True
 
 MENUITEMS = [
-	('Questions', '/category/questions.html'),
-	('Ideas', '/category/ideas.html'),
-	('Sources', '/category/sources.html'),
-	('About', '/pages/about.html')
+	('Questions', '/category/questions/'),
+	('Ideas', '/category/ideas/'),
+	('Sources', '/category/sources/'),
+	('About', '/pages/about/')
 ]
     
-# ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}.html'
-# ARTICLE_URL = 'articles/{date:%Y}/{slug}.html'
-ARTICLE_SAVE_AS = 'articles/{category}/{slug}.html'
-ARTICLE_URL = 'articles/{category}/{slug}.html'
+ARTICLE_URL = 'articles/{category}/{date:%Y}/{slug}/'
+ARTICLE_SAVE_AS = 'articles/{category}/{date:%Y}/{slug}/index.html'
+
+PAGE_URL = 'pages/{slug}/'
+PAGE_SAVE_AS = 'pages/{slug}/index.html'
+
+CATEGORY_URL = "category/{slug}"
+CATEGORY_SAVE_AS = "category/{slug}/index.html"
+
 DEFAULT_DATE = 'fs'
 TYPOGRIFY = True
 THEME = 'themes/bootstrap' 
