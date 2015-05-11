@@ -42,7 +42,8 @@ MENUITEMS = [
 	('Questions', '/category/questions/'),
 	('Ideas', '/category/ideas/'),
 	('Sources', '/category/sources/'),
-	('About', '/pages/about/')
+	('About', '/pages/about/'),
+    ('Definition', '/pages/definition/'),
 ]
     
 ARTICLE_URL = 'articles/{category}/{date:%Y}/{slug}/'
