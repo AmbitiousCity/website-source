@@ -32,7 +32,7 @@ SHOW_ARTICLE_CATEGORY = False
 HIDE_SITENAME = True
 FAVICON = 'images/favicon.png'
 SITELOGO = 'images/2013-11-26.VUE-trans.png'
-SITELOGO_SIZE = 250
+SITELOGO_SIZE = 205
 
 #static content = 'pages'
 STATIC_PATHS = ['pages', 'pdfs', 'images'] # 'downloads']
