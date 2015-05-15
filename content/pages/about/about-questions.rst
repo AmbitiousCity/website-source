@@ -16,8 +16,8 @@ Why attempt to ask good questions about urban design?
 -----------------------------------------------------
 
 - Good questions are important because they encourage curiosity
-- Questions can lead to many ideas
-- Questions also provide a *structure* for good ideas: a good idea is given a context by the question that may have inspired it. 
+- Good questions can lead to many good ideas
+- Questions also provide a *structure* for good ideas: a good idea is given a context by the question that inspires it. 
 
 What makes a good question?
 --------------------------------------------------

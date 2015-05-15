@@ -3,6 +3,20 @@ body {
     font-size: 13px; /*15px;*/
 }
 
+.navbar-default {
+    background-color: #222; /*333*/
+    border-color: #222;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 12px 15px;
+    font-size: 19px;
+    line-height: 21px;
+    height: 75px;
+    vertical-align: top;
+}
+
 .label-default  {
     background-color: #E7E7E7;
     color: #333;

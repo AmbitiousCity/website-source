@@ -23,14 +23,16 @@ ARTICLE_PATHS = ['articles']   #questions', 'articles/ideas', 'articles/sources'
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_CATEGORY_IN_BREADCRUMBS = True # only works for articles (dynamic content)
-DISPLAY_BREADCRUMBS = True
+DISPLAY_BREADCRUMBS = False
 DISPLAY_ARTICLE_INFO_ON_INDEX = False
 SHOW_DATE_MODIFIED = True
 SHOW_ARTICLE_AUTHOR = True
 SHOW_ARTICLE_CATEGORY = False
 
-#FAVICON = 'images/favicon.png'
-#SITELOGO = 'images/my_site_logo.png'
+HIDE_SITENAME = True
+FAVICON = 'images/favicon.png'
+SITELOGO = 'images/2013-11-26.VUE-trans.png'
+SITELOGO_SIZE = 250
 
 #static content = 'pages'
 STATIC_PATHS = ['pages', 'pdfs', 'images'] # 'downloads']
@@ -42,8 +44,7 @@ MENUITEMS = [
 	('Questions', '/category/questions/'),
 	('Ideas', '/category/ideas/'),
 	('Sources', '/category/sources/'),
-	('About', '/pages/about/'),
-    ('Definition', '/pages/definition/'),
+	('About', '/pages/about/')
 ]
     
 ARTICLE_URL = 'articles/{category}/{date:%Y}/{slug}/'
