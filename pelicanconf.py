@@ -31,7 +31,8 @@ SHOW_ARTICLE_CATEGORY = False
 
 HIDE_SITENAME = True
 FAVICON = 'images/favicon.png'
-SITELOGO = 'images/2013-11-26.VUE-trans.png'
+# SITELOGO = 'images/2013-11-26.VUE-trans.png'
+SITELOGO = 'images/2013-11-26.png'
 SITELOGO_SIZE = 205
 
 #static content = 'pages'
