@@ -22,28 +22,14 @@ Why attempt to ask good questions about urban design?
 What makes a good question?
 --------------------------------------------------
 
-- One that is neither too broad nor too narrow
-- One that 'cuts to the chase'
-- One, that when asked, makes a situation clearer or more understandable 
-- One to which preliminary answers are available without expending a huge amount of effort
-
-What makes a good question?
---------------------------------------------------
-
-
-It is:
+It is one that:
 ..................................................
 
-- clear what the question means, or to which it refers
+- when asked makes a situation clearer or more understandable
+- re-frames perception in an interesting way
+- encourages a process of learning to determine what its answer might be
+- is non-rhetorical--should uncover something that in unknown, as opposed to a statement the promotes an established position or opinion 
+- is possible to answer--after a finite amount of research or reflection
+- is neither too broad nor too narrow
 
-- possible to answer - after some finite amount of research or reflection
-- non-rhetorical: a question should be used to uncover something that in unknown, as opposed to a statement the promotes an established position or opinion
 
-
-It should:
-..................................................
-
-- have an answer that isn't obvious, or given
-- inspire some curiosity to find its answer
-- increase our understanding of the world if an answer to it is found
-- re-frame existing reality in an interesting way

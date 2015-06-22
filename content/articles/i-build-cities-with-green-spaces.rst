@@ -1,10 +1,12 @@
-How should cities be built?
+Build Cities with Green Spaces
 ==================================================
 
-:url:
-:save_as: index.html
-:summary: If we could build them again, how would we build them?
+:summary: Build cities with green spaces so residents can have easy access to nature.
+:tags: Idea
 
+.. :slug: articles/ideas/build-cities-with-green-spaces
+.. :url: articles/ideas/build-cities-with-green-spaces
+.. :save_as: articles/ideas/build-cities-with-green-spaces.html
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -16,11 +18,10 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ----
 
-**Inspired by idea** (parent): Top level
+**Inspired by question** (parent):
+`How should cities be built? <{filename} q-how-should-cities-be-built.rst>`_
 
-**Ideas addressing this question** (children):
-`Build Cities with Green Spaces <{filename} ../ideas/i-build-cities-with-green-spaces.rst>`_ |
-`Build Cities with Green Spaces <{filename} ../ideas/i-build-cities-with-green-spaces.rst>`_
+**Questions that address this idea** (children): none yet
 
-**Sources relevant to this question:** 
-`The economy of cities <{filename} ../sources/s-jacobs1970economy.rst>`_
+**Sources:**
+`The economy of cities <{filename} s-jacobs1970economy.rst>`_

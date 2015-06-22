@@ -20,7 +20,7 @@ PATH = 'content'
 
 #dynamic content = 'articles'
 ARTICLE_PATHS = ['articles']   #questions', 'articles/ideas', 'articles/sources'
-USE_FOLDER_AS_CATEGORY = True
+USE_FOLDER_AS_CATEGORY = False
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_CATEGORY_IN_BREADCRUMBS = True # only works for articles (dynamic content)
 DISPLAY_BREADCRUMBS = False
@@ -39,12 +39,11 @@ SITELOGO_SIZE = 205
 STATIC_PATHS = ['pages', 'pdfs', 'images'] # 'downloads']
 FAVICON = 'images/favicon.ico'
 DISPLAY_PAGES_ON_MENU = False
-HIDE_SIDEBAR = True
+HIDE_SIDEBAR = False
 
 MENUITEMS = [
-	('Questions', '/category/questions/'),
-	('Ideas', '/category/ideas/'),
-	('Sources', '/category/sources/'),
+	('Questions', '/tag/question.html'),
+	# ('Ideas', '/tag/idea.html'),
 	('About', '/pages/about/')
 ]
     

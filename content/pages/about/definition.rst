@@ -10,7 +10,7 @@ Inclusive: includes all its residents
 
 -  Believes that all people should have a say in the future of their city
 -  Encourages people to participate and contribute to urban design 
--  Welcomes newcomers to the city —- the flow of people and their ideas is the city’s lifeblood
+-  Welcomes newcomers to the city--the flow of people and their ideas is the city’s lifeblood
 
 Designable: imagines a future that can be designed
 --------------------------------------------------
@@ -25,4 +25,7 @@ Grounded: sets rational yet creative goals
 -  Creates urban systems that are innovative and sustainable
 -  Considers evidence and research when solving problems
 -  Envisions an urban future that is creative, fun and beautiful
+
+
+
 

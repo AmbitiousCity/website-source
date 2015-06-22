@@ -1,33 +1,34 @@
 Sample questions
 ==================================================
 
-:summary: Questions written to learn how to write questions
+:summary: Questions written to learn how to write questions 1
+:tags: 
 :status: draft
 
 
 MC issues: why am I doing this?
 --------------------------------------------------
 
+What would you do if you had six months to live?
+	- Write things down. 
+	- Therefore, that is what you must do now
+
 David Byrne's insight
 	- You produce work for, and within, a community
 	- Your social context makes a huge difference
 	- This is what I have found. 
-	- Before Carol and her church and my St James, i didn't have a context; now I do; I don't think I realize that this is a big difference
+	- Before Carol, her church and my St James, I didn't have a context; now I do; I don't think I realize that this is a big difference; make the most of this community. 
 
 What am I searching for?
 	- Trying to find something I can focus on
 	- Trying to find a community in which I can perform well
 	- Trying to find an adequate day-job
-	- Trying to integrate too much: design, music, Haskell, urban theory, satire, creative writing
+	- Trying to integrate too much: design, creative writing, music, Haskell, urban theory, satire 
 
 Could I just write or do I also need to do design?
 	- Must do BOTH
 	- Write about design: become a well-known blogger (so what)
 	- Write about cities and DO design - become something innovative (seldom seen)
-
-What would you do if you had six months to live?
-	- Write things down. 
-	- Therefore, that is what you must do now
 
 What are my blockages?
 	- Lack of something really meaningful
@@ -36,11 +37,11 @@ What are my blockages?
 		- I am not happy enough with what others do not have
 
 What are the things that will join Carol and I together?
+	- Things that make us laugh
+	- Things that both can do excel at
 	- Write together
-	- Things that both can do well in
 	- Things that involve Carol and my friends
 	- Things that appear good to external observers
-	- Things that make us laugh
 
 What were you really happy doing?
 	- Writing my blog and having Susan and Ryan praise it
