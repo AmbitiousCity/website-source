@@ -2,8 +2,10 @@ jacobs1970economy
 ==================================================
 
 :summary: J\. Jacobs and others. "The economy of cities." London: Jonathan Cape., 1970.
-:tags: Source
 :citekey: jacobs1970economy
+:category: Source
+:tags:
+
 
    
 J\. Jacobs and others. "The economy of cities." London: Jonathan Cape., 1970.

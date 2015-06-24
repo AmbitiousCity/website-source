@@ -2,7 +2,8 @@ Build Cities with Green Spaces
 ==================================================
 
 :summary: Build cities with green spaces so residents can have easy access to nature.
-:tags: Idea
+:category: Idea
+:tags: Amenity
 
 .. :slug: articles/ideas/build-cities-with-green-spaces
 .. :url: articles/ideas/build-cities-with-green-spaces

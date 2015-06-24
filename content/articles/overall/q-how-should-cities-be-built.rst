@@ -3,7 +3,8 @@ How should cities be built?
 
 :url:
 :save_as: index.html
-:tags: Question
+:category: Question
+:tags: 
 :summary: If we could build them again, how would we build them?
 
 

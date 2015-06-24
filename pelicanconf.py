@@ -20,7 +20,7 @@ PATH = 'content'
 
 #dynamic content = 'articles'
 ARTICLE_PATHS = ['articles']   #questions', 'articles/ideas', 'articles/sources'
-USE_FOLDER_AS_CATEGORY = False
+USE_FOLDER_AS_CATEGORY = False 
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_CATEGORY_IN_BREADCRUMBS = True # only works for articles (dynamic content)
 DISPLAY_BREADCRUMBS = False
@@ -42,7 +42,7 @@ DISPLAY_PAGES_ON_MENU = False
 HIDE_SIDEBAR = False
 
 MENUITEMS = [
-	('Questions', '/tag/question.html'),
+	('Questions', '/category/question/'),
 	# ('Ideas', '/tag/idea.html'),
 	('About', '/pages/about/')
 ]

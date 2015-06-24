@@ -2,6 +2,7 @@ Questions - Samples
 ==================================================
 
 :summary: Questions written to learn how to write questions 2
+:category: Question
 :tags: 
 :status: draft
 
