@@ -1,7 +1,7 @@
 Future - upcoming questions
 ==================================================
 
-:slug: 
+:slug: 0-future
 :summary:
 :tags: Future
 :category: Question

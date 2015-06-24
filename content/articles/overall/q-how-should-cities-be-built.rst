@@ -23,9 +23,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 **Inspired by idea** (parent): Top level
 
 **Ideas addressing this question** (children):
-`Build Cities with Green Spaces <{filename} i-build-cities-with-green-spaces.rst>`_ |
-`Build Cities with Green Spaces <{filename} i-build-cities-with-green-spaces.rst>`_
+`Build Cities with Green Spaces <{filename} ../amenity/i-build-cities-with-green-spaces.rst>`_ |
+`Build Cities with Green Spaces <{filename} ../amenity/i-build-cities-with-green-spaces.rst>`_
 
 **Sources relevant to this question:** 
-`The economy of cities <{filename} s-jacobs1970economy.rst>`_
+`The economy of cities <{filename} ../sources/s-jacobs1970economy.rst>`_
 

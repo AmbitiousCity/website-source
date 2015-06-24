@@ -1,7 +1,7 @@
 Transportation - upcoming questions
 ==================================================
 
-:slug: 
+:slug: 0-transportation
 :summary:
 :tags: Transportation
 :category: Question

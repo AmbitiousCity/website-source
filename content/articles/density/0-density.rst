@@ -1,7 +1,7 @@
 Density - upcoming questions
 ==================================================
 
-:slug: 
+:slug: 0-density
 :summary:
 :tags: Density
 :category: Question

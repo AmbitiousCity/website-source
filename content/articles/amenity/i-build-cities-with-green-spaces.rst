@@ -20,9 +20,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 ----
 
 **Inspired by question** (parent):
-`How should cities be built? <{filename} q-how-should-cities-be-built.rst>`_
+`How should cities be built? <{filename} ../overall/q-how-should-cities-be-built.rst>`_
 
 **Questions that address this idea** (children): none yet
 
 **Sources:**
-`The economy of cities <{filename} s-jacobs1970economy.rst>`_
+`The economy of cities <{filename} ../sources/s-jacobs1970economy.rst>`_
