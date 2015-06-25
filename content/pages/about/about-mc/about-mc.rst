@@ -7,7 +7,7 @@ Michael Cumming, BArch Ph.D
 .. figure:: /images/1090019-002.jpg
 	:alt: Michael Cumming
 	:figwidth: 100%
-	:width: 500px
+	:width: 350px
 
 ----
 
@@ -15,4 +15,4 @@ Michael Cumming is the founder of Ambitious City. He is a writer, designer and p
 
 Michael has lived in many cities including Toronto, Pittsburgh, London, Berlin, and Rotterdam. His professional interests are both artistic and intellectual. He aims at knowledge integration and simplification. He believes that good ideas don’t have to be complicated or difficult to understand. He believes that both poets and scientists have things to say. He believes that the world desperately needs more good ideas.
 
-Michael lives in Toronto. He grew up in Halifax, Nova Scotia and Ottawa, Ontario. He supports the Centre for Social Innovation, which has been very supportive in the development of the Ambitious City enterprise. He likes to sing, swim and cycle around downtown Toronto. He is the proud father of twin teenaged boys.
+Michael lives in Toronto. He grew up in Halifax, Nova Scotia and Ottawa, Ontario. He supports the Centre for Social Innovation, which has been very supportive in the development of the Ambitious City enterprise. He likes to sing, swim and cycle around downtown Toronto. He is happily married and is the proud father of twin teenage boys.
