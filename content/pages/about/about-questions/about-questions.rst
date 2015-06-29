@@ -21,7 +21,7 @@ Urban design questions are useful in that they
 
 `What makes a good design question? <{filename} good-questions.rst>`_
 
-`Connecting design questions together <{filename} connecting-questions.rst>`_
+`Connecting questions together <{filename} connecting-questions.rst>`_
 
 
 

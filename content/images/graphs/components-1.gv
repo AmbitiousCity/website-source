@@ -1,0 +1,11 @@
+/* Generate in command line:
+dot -Tpng components-1.gv -o components-1.png */
+//rankedDir=LR, 
+
+digraph G  { 
+	//graph [splines=ortho]
+	//node [shape=box] Bands Beads Cases_and_Enclosures Electronics
+
+	node [shape=ellipse]
+	Components -> {Bands Beads Cases_and_Enclosures Electronics}
+}

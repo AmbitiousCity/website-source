@@ -1,8 +1,8 @@
-A good question is one that
+A good design question is one that
 ==================================================
 
 :slug: good-questions
-:summary: What makes a good question?
+:summary: What makes a good design question?
 :category: 
 :tags: 
 
@@ -12,4 +12,4 @@ A good question is one that
 - is possible to answer after a finite amount of research or reflection
 - is neither too broad nor too narrow
 - is non-rhetorical: its purpose is to uncover something unknown, as opposed to a statement the promotes an established position or opinion
-- is *open*, *neutral* and *lean*: it doesn't inject a preconceived answer into its content [this idea is from the brilliant work of John Sawatsky]
+- is *open*, *neutral* and *lean*: it doesn't inject a preconceived answer into its content [this idea is from the brilliant work of the Canadian journalist John Sawatsky]

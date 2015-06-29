@@ -9,20 +9,20 @@ Questions on this site can be about most anything to do with urban design. This 
 ------
 
 Chronological
-	The chronological order in which they appear on the site
+	The chronological order in which they appear on the site ("next post / previous post")
 
 ------
 
 Hierarchical
-	Questions might have related sub-questions--questions that deal with the same topic, but go into greater detail or are subsumed by the 'parent' question
+	Questions might have related sub-questions--questions that deal with the same topic, but go into greater detail or are subsumed by the 'parent' question ("children of this item / parent of this item")
 
 ------
 
 Answer or hypothesis based
-	Questions may have discoverable answers (or provisional answers) based on available evidence (or just common sense)
+	Questions may have discoverable answers (or provisional answers) based on available evidence, or just common sense ("answers [or provisional answers] to this question")
 
 ------
 
 Narrative-related
-	Questions connected together in order to tell a story
+	Questions connected together in order to tell a story ("next page in story / previous page in story")
 

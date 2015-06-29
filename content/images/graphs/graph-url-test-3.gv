@@ -1,0 +1,36 @@
+/* Generate in command line:
+//png previews better, but svg works better as an end-product online
+dot -Tsvg graph-url-test-3.gv -o graph-url-test-3.svg */
+
+
+/* digraph G {
+	A1->B1 [href="/category/question/", target="_parent", label="click HERE"];
+} */
+
+digraph G {
+	rankdir=LR
+	//splines=curved //tends not to work well
+	node [shape=box, style="rounded,filled", fontsize=12, height=0.3, width=0.5, fixedsize=true]
+	
+	subgraph i {
+		node [fillcolor=lightgrey]
+		i1, i2, i3 [href="/category/question/", target="_parent"]
+		i1->i1
+		i2->i2
+		i3->i3
+		i1->i3
+		i2->i3
+	}
+
+	subgraph s {
+		node [fillcolor=yellow]
+		s1, s2, s3 [href="/category/question/", target="_parent"]
+		s1->s2
+	}
+
+	i1->s1
+	i2->s2
+	s2->i2
+	i3->s3
+	
+}

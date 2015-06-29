@@ -1,0 +1,12 @@
+/* Generate in command line:
+dot -Tpng devices-1.gv -o devices-1.png */
+//rankedDir=LR, 
+
+digraph G  { 
+	//graph [splines=ortho]
+	//node [shape=ellipse] Wearable_Devices
+	//node [shape=box] Early_Vibrotactile Later_Felt Later_Leather Later_Bluetooth_Enabled
+	
+	node [shape=ellipse]
+	Wearable_Devices -> {Early_Vibrotactile Later_Felt Later_Leather Bluetooth_Enabled}
+}

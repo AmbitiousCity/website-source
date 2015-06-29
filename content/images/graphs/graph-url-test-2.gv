@@ -1,0 +1,20 @@
+/* Generate in command line:
+//png previews better, but svg works better as an end-product online
+dot -Tsvg graph-url-test-2.gv -o graph-url-test-2.svg */
+
+
+/* digraph G {
+	A1->B1 [href="/category/question/", target="_parent", label="click HERE"];
+} */
+
+digraph G {
+	rankDir=LR
+
+	node [shape=box, style="rounded,filled", fontsize=10, height=0.3, width=0.5, fixedsize=true];
+	
+	Idea [fillcolor=lightgrey, href="/category/question/", target="_parent"];
+	S1, S2, S3 [fillcolor=yellow, href="/category/question/", target="_parent"];
+
+	Idea->{S1, S2, S3} //[label="click_here"];
+
+}

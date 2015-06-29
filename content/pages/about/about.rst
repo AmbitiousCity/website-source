@@ -16,13 +16,11 @@ Ambitious City is an experimental site for urban design. Our goal is to identify
 
 `About cities <{filename} about-cities/about-cities.rst>`_
 
-`About collaborative design of cities <{filename} about-design/about-design.rst>`_
-
 `About the principal of Ambitious City <{filename} about-mc/about-mc.rst>`_
 
 `FAQ <{filename} faq.rst>`_
 
-.. `Test box <{filename} testBox.rst>`_
+`Test box <{filename} testBox.rst>`_
 
 |
 

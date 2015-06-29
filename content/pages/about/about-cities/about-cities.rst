@@ -9,11 +9,8 @@ Ambitious City assumes that demographic trends will continue and that most peopl
 
 ------
 
+`About collaborative design of cities <{filename} ../about-design/about-design.rst>`_
+
 `Definition of an Ambitious City <{filename} ac-definition.rst>`_
-
-
-
-
-
 
 

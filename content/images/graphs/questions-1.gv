@@ -1,0 +1,14 @@
+/* Generate in command line:
+dot -Tpng questions-1.gv -o questions-1.png */
+
+//rankedDir=LR, 
+//splines=ortho, [nodesep=1]
+
+digraph G  { 
+	graph [rankedDir=LR]
+	node [shape=ellipse]
+	
+	Questions->{ ISTP_grant, NSERC_grant, Design_of_device }
+	Design_of_device->{ Use_cases, Components, Configurations, Materials }
+	
+}

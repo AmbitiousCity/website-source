@@ -1,0 +1,10 @@
+/* Generate in command line:
+//png previews better, but svg works better as an end-product online
+dot -Tsvg graph-url-test.gv -o graph-url-test.svg */
+
+
+digraph G {
+
+	a0->a1 [href="/category/question/", label="click here"];
+
+}
