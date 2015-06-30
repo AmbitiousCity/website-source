@@ -9,7 +9,7 @@ Test graph
 
 .. figure:: /images/graphs/graph-url-test-3.svg
 	:alt: graph-url-test-3
-	:figwidth: 25%
+	:figwidth: 100%
 
 	
 	Graph caption
