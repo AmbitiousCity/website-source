@@ -1,7 +1,7 @@
-Test graph
+Test graph Graphviz
 ==================================================
 
-:slug: test-graph
+:slug: test-graph-graphviz
 :summary: 
 :tags: Amenity
 :category: Graph
