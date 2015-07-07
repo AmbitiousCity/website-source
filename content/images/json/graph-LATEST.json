@@ -1,0 +1,48 @@
+{
+    "nodes": [{
+            "id": "aa",
+            "name": "Myriel",
+            "url": "/category/aa",
+            "group": 1
+        },
+
+        {
+            "id": "bb",
+            "name": "Napoleon",
+            "url": "/category/bb",
+            "group": 1
+        },
+
+        {
+            "id": "cc",
+            "name": "Mlle.Baptistine",
+            "url": "/category/cc",
+            "group": 1
+        }
+    ],
+
+    "links": [{
+            "id": "xx",
+            "sourceId": "bb",
+            "targetId": "aa",
+            "url": "/category/testone",
+            "value": 1
+        },
+
+        {
+            "id": "yy",
+            "sourceId": "cc",
+            "targetId": "aa",
+            "url": "/category/testone",
+            "value": 8
+        },
+
+        {
+            "id": "zz",
+            "sourceId": "cc",
+            "targetId": "aa",
+            "url": "/category/testone",
+            "value": 10
+        }
+    ]
+}

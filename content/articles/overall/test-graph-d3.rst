@@ -5,6 +5,7 @@ Test graph d3.js
 :summary: 
 :tags: Amenity
 :category: Graph
+:status: draft 
 
 
 .. figure:: /images/graphs/graph-url-test-3.svg
@@ -85,7 +86,7 @@ Test graph d3.js
 	      .data(graph.nodes)
 	    .enter().append("circle")
 	      .attr("class", "node")
-	      .attr("r", 5)
+	      .attr("r", 20)
 	      .style("fill", function(d) { return color(d.group); })
 	      .call(force.drag);
 

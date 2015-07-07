@@ -1,0 +1,26 @@
+{
+    "nodes": [{
+            "id": "aa",
+            "index": 0,
+            "name": "Myriel",
+            "url": "/category/testone",
+            "group": 1
+        }, {
+            "id": "bb",
+            "index": 1,
+            "name": "Napoleon",
+            "url": "/category/testone",
+            "group": 1
+        }
+
+    ],
+    "links": [{
+        "id": "xx",
+        "source": 1,
+        "sourceId": "aa",
+        "target": 0,
+        "targetId": "bb",
+        "url": "/category/testone",
+        "value": 1
+    }]
+}
