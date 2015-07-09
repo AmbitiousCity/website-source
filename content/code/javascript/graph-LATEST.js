@@ -33,11 +33,12 @@ d3.json("/code/json/graph-LATEST.json", function(error, graph) {
     //2nd step: process each link
     graph.links.forEach(function(link) {
         var s = nodesDict[link.sourceId],
-            t = nodesDict[link.targetId];
+            t = nodesDict[link.targetId]
 
         links.push({
             source: s,
-            target: t
+            target: t,
+            type: link.type
         });
     });
 
@@ -49,7 +50,7 @@ d3.json("/code/json/graph-LATEST.json", function(error, graph) {
 
     //---Insert-------
     svg.append("defs").selectAll("marker")
-        .data(["suit", "licensing", "resolved"])
+        .data(["normal", "licensing", "resolved"])
         .enter().append("marker")
         .attr("id", function(d) {
             return d;
@@ -62,7 +63,7 @@ d3.json("/code/json/graph-LATEST.json", function(error, graph) {
         .attr("orient", "auto")
         .append("path")
         .attr("d", "M0,-5L10,0L0,5 L10,0 L0, -5")
-        .style("stroke", "#999")
+        .style("stroke", "#666") //halfway between link colors
         .style("opacity", "0.85");
     //---End Insert---
 
@@ -70,21 +71,10 @@ d3.json("/code/json/graph-LATEST.json", function(error, graph) {
     var link = svg.selectAll(".link")
         .data(links)
         .enter().append("line")
-        .attr("class", "link")
-        .style("marker-end", "url(#suit)") // Modified line 
-    ;
-    // .attr("class", function(d) {
-    //     return "link " + d.type;
-    // })
-    // .style("stroke-width", function(d) {
-    //     return Math.sqrt(d.value);
-    // })
-
-    // .attr("marker-end", function(d) {
-    //     return "url(#" + d.type + ")";
-    // })
-
-
+        .style("marker-end", "url(#normal)") // Modified line 
+        .attr("class", function(d) {
+            return "link_" + d.type;
+        });
 
     //Do the same with the circles for the nodes
     var node = svg.selectAll(".node")

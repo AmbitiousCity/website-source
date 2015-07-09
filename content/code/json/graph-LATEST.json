@@ -26,8 +26,7 @@
             "sourceId": "bb",
             "targetId": "aa",
             "url": "/category/testone",
-            "type": "suit",
-            "value": 100
+            "type": "hasChild"
         },
 
         {
@@ -35,8 +34,7 @@
             "sourceId": "cc",
             "targetId": "aa",
             "url": "/category/testone",
-            "type": "resolved",
-            "value": 100
+            "type": "hasSource"
         },
 
         {
@@ -44,8 +42,7 @@
             "sourceId": "cc",
             "targetId": "bb",
             "url": "/category/testone",
-            "type": "licensing",
-            "value": 100
+            "type": "hasChild"
         }
     ]
 }

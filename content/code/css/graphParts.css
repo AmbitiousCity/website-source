@@ -3,13 +3,25 @@
     stroke-width: 1.5px;
 }
 
-.link {
-    stroke: #999;
+.link_hasChild {
+    stroke: #333;
     stroke-opacity: 0.85;
     stroke-width: 1.5px;
 }
 
+.link_hasSource {
+    stroke: #999;
+    stroke-opacity: 0.35;
+    stroke-width: 1.5px;
+}
 
+/*.linkChild {
+    stroke: #000;
+}
+*/
+/*k .hasChild {
+    stroke: #000;
+}*/
 /*.link.suit {
     stroke: blue;
     
@@ -19,12 +31,4 @@
     stroke: yellow;
     
     stroke-width: 5px;
-}*/
-
-/*.link.resolved {
-    stroke: black;
-stroke-width: 2px;
-stroke-dasharray: 0,
-2 1;
-}
-*/
+} */
