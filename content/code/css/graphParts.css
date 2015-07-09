@@ -1,9 +1,30 @@
 .node {
-    stroke: #fff;
+    stroke: #111;
     stroke-width: 1.5px;
 }
 
 .link {
     stroke: #999;
-    stroke-opacity: .6;
+    stroke-opacity: 0.85;
+    stroke-width: 1.5px;
 }
+
+
+/*.link.suit {
+    stroke: blue;
+    
+    stroke-width: 10px;
+}*/
+/*.link.licensing {
+    stroke: yellow;
+    
+    stroke-width: 5px;
+}*/
+
+/*.link.resolved {
+    stroke: black;
+stroke-width: 2px;
+stroke-dasharray: 0,
+2 1;
+}
+*/

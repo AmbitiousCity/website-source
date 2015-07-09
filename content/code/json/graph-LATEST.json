@@ -3,21 +3,21 @@
             "id": "aa",
             "name": "Myriel",
             "url": "/category/aa",
-            "group": 1
+            "group": "Question"
         },
 
         {
             "id": "bb",
             "name": "Napoleon",
             "url": "/category/bb",
-            "group": 2
+            "group": "Idea"
         },
 
         {
             "id": "cc",
             "name": "Mlle.Baptistine",
             "url": "/category/cc",
-            "group": 3
+            "group": "Theory"
         }
     ],
 
@@ -26,6 +26,7 @@
             "sourceId": "bb",
             "targetId": "aa",
             "url": "/category/testone",
+            "type": "suit",
             "value": 100
         },
 
@@ -34,14 +35,16 @@
             "sourceId": "cc",
             "targetId": "aa",
             "url": "/category/testone",
+            "type": "resolved",
             "value": 100
         },
 
         {
             "id": "zz",
             "sourceId": "cc",
-            "targetId": "aa",
+            "targetId": "bb",
             "url": "/category/testone",
+            "type": "licensing",
             "value": 100
         }
     ]
