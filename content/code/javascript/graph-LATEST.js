@@ -1,25 +1,25 @@
 var width = 500,
     height = 300;
 
-var color = d3.scale.category20();
+var color = d3.scale.category10();
 
 var force = d3.layout.force()
-    .linkDistance(10)
-    .linkStrength(2)
+    .linkDistance(100) //distance we desire between connected nodes; greater the number, nodes farther apart
+    // link distance is the expected distance between nodes => http://stackoverflow.com/questions/17355128/relation-between-linkdistance-and-linkstrength-in-d3-js-force-layout
+    .linkStrength(1) //link strength as the speed at which you want to reach target distance on each iteration.
+    .charge(-250) //lower the number, nodes farther apart; 
+    //negative charge values indicate repulsion, which is generally desirable for force-directed graphs
     .size([width, height]);
 
 var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-// var test = -5;
-
-d3.json("/images/json/graph-LATEST.json", function(error, graph) {
+d3.json("/code/json/graph-LATEST.json", function(error, graph) {
     if (error) throw error;
 
     var nodes = graph.nodes,
-        links = [], //create an empty array
-        bilinks = [];
+        links = [];
 
     //1st step: make an associative array of nodes--to refer to node objects by id
     var nodesDict = {};
@@ -30,18 +30,12 @@ d3.json("/images/json/graph-LATEST.json", function(error, graph) {
     //2nd step: process each link
     graph.links.forEach(function(link) {
         var s = nodesDict[link.sourceId],
-            t = nodesDict[link.targetId],
-            i = {}; //intermediate node
+            t = nodesDict[link.targetId];
 
-        nodes.push(i);
         links.push({
             source: s,
-            target: i
-        }, {
-            source: i,
             target: t
         });
-        bilinks.push([s, i, t]);
     });
 
     //original:
@@ -49,6 +43,7 @@ d3.json("/images/json/graph-LATEST.json", function(error, graph) {
     //     var s = nodes[link.source],
     //         t = nodes[link.target],
     //         i = {}; // intermediate node
+
     //     nodes.push(i);
     //     links.push({
     //         source: s,
@@ -66,15 +61,18 @@ d3.json("/images/json/graph-LATEST.json", function(error, graph) {
         .start();
 
     var link = svg.selectAll(".link")
-        .data(bilinks)
-        .enter().append("path")
-        .attr("class", "link");
+        .data(links)
+        .enter().append("line")
+        .attr("class", "link")
+        .style("stroke-width", function(d) {
+            return Math.sqrt(d.value);
+        });
 
     var node = svg.selectAll(".node")
         .data(nodes)
         .enter().append("circle")
         .attr("class", "node")
-        .attr("r", 20)
+        .attr("r", 15)
         .style("fill", function(d) {
             return color(d.group);
         })
@@ -86,11 +84,24 @@ d3.json("/images/json/graph-LATEST.json", function(error, graph) {
         });
 
     force.on("tick", function() {
-        link.attr("d", function(d) {
-            return "M" + d[0].x + "," + d[0].y + "S" + d[1].x + "," + d[1].y + " " + d[2].x + "," + d[2].y;
-        });
-        node.attr("transform", function(d) {
-            return "translate(" + d.x + "," + d.y + ")";
-        });
+        link.attr("x1", function(d) {
+                return d.source.x;
+            })
+            .attr("y1", function(d) {
+                return d.source.y;
+            })
+            .attr("x2", function(d) {
+                return d.target.x;
+            })
+            .attr("y2", function(d) {
+                return d.target.y;
+            });
+
+        node.attr("cx", function(d) {
+                return d.x;
+            })
+            .attr("cy", function(d) {
+                return d.y;
+            });
     });
 });

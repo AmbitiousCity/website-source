@@ -10,14 +10,14 @@
             "id": "bb",
             "name": "Napoleon",
             "url": "/category/bb",
-            "group": 1
+            "group": 2
         },
 
         {
             "id": "cc",
             "name": "Mlle.Baptistine",
             "url": "/category/cc",
-            "group": 1
+            "group": 3
         }
     ],
 
@@ -26,7 +26,7 @@
             "sourceId": "bb",
             "targetId": "aa",
             "url": "/category/testone",
-            "value": 1
+            "value": 100
         },
 
         {
@@ -34,7 +34,7 @@
             "sourceId": "cc",
             "targetId": "aa",
             "url": "/category/testone",
-            "value": 8
+            "value": 100
         },
 
         {
@@ -42,7 +42,7 @@
             "sourceId": "cc",
             "targetId": "aa",
             "url": "/category/testone",
-            "value": 10
+            "value": 100
         }
     ]
 }

@@ -36,7 +36,7 @@ SITELOGO = 'images/2013-11-26.png'
 SITELOGO_SIZE = 205
 
 #static content = 'pages'
-STATIC_PATHS = ['pages', 'pdfs', 'images'] # 'downloads']
+STATIC_PATHS = ['pages', 'pdfs', 'images', 'code'] # 'downloads']
 FAVICON = 'images/favicon.ico'
 DISPLAY_PAGES_ON_MENU = False
 HIDE_SIDEBAR = False
