@@ -1,6 +1,12 @@
-.node {
-    stroke: #111;
-    stroke-width: 1.5px;
+.node circle {
+    stroke: #333;
+    stroke-width: 1.0px;
+}
+
+.node text {
+    font: 12px helvetica, arial, sans-serif;
+    pointer-events: none;
+    /*text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;*/
 }
 
 .link_hasChild {
@@ -14,21 +20,8 @@
     stroke-opacity: 0.35;
     stroke-width: 1.5px;
 }
-
-/*.linkChild {
-    stroke: #000;
-}
-*/
-/*k .hasChild {
-    stroke: #000;
+/*.node_text {
+    font: 10px sans-serif;
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
 }*/
-/*.link.suit {
-    stroke: blue;
-    
-    stroke-width: 10px;
-}*/
-/*.link.licensing {
-    stroke: yellow;
-    
-    stroke-width: 5px;
-} */

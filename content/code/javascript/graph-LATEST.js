@@ -48,7 +48,7 @@ d3.json("/code/json/graph-LATEST.json", function(error, graph) {
         .links(links)
         .start();
 
-    //---Insert-------
+    //---arrow insert-------
     svg.append("defs").selectAll("marker")
         .data(["normal", "licensing", "resolved"])
         .enter().append("marker")
@@ -65,7 +65,7 @@ d3.json("/code/json/graph-LATEST.json", function(error, graph) {
         .attr("d", "M0,-5L10,0L0,5 L10,0 L0, -5")
         .style("stroke", "#666") //halfway between link colors
         .style("opacity", "0.85");
-    //---End Insert---
+    //---end arrow insert---
 
     //Create all the line svgs but without locations yet
     var link = svg.selectAll(".link")
@@ -76,21 +76,39 @@ d3.json("/code/json/graph-LATEST.json", function(error, graph) {
             return "link_" + d.type;
         });
 
-    //Do the same with the circles for the nodes
+    //labels from Bostock example: http://bl.ocks.org/mbostock/950642
     var node = svg.selectAll(".node")
         .data(nodes)
-        .enter().append("circle")
+        .enter().append("g")
         .attr("class", "node")
-        .attr("r", 12)
+        .call(force.drag);
+
+    node.append("circle")
+        .attr("r", 10)
         .style("fill", function(d) {
             return color(d.group);
         })
-        .call(force.drag);
 
+    //label text
+    node.append("text")
+        .attr("dx", 12)
+        .attr("dy", ".35em")
+        .text(function(d) {
+            return d.label
+        });
+
+    //title on mouse hover
     node.append("title")
         .text(function(d) {
-            return d.name;
+            return d.text;
         });
+
+    // node.append("image")
+    //     .attr("xlink:href", "https://github.com/favicon.ico")
+    //     .attr("x", -8)
+    //     .attr("y", -8)
+    //     .attr("width", 16)
+    //     .attr("height", 16);
 
 
 
@@ -109,10 +127,16 @@ d3.json("/code/json/graph-LATEST.json", function(error, graph) {
                 return d.target.y;
             });
 
-        node.attr("cx", function(d) {
+        d3.selectAll("circle").attr("cx", function(d) {
                 return d.x;
             })
             .attr("cy", function(d) {
+                return d.y;
+            });
+        d3.selectAll("text").attr("x", function(d) {
+                return d.x;
+            })
+            .attr("y", function(d) {
                 return d.y;
             });
     });

@@ -1,21 +1,24 @@
 {
     "nodes": [{
             "id": "aa",
-            "name": "Myriel",
+            "label": "Myriel",
+            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
             "url": "/category/aa",
             "group": "Question"
         },
 
         {
             "id": "bb",
-            "name": "Napoleon",
+            "label": "Napoleon",
+            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
             "url": "/category/bb",
             "group": "Idea"
         },
 
         {
             "id": "cc",
-            "name": "Mlle.Baptistine",
+            "label": "Mlle.Baptistine",
+            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
             "url": "/category/cc",
             "group": "Theory"
         }
@@ -25,7 +28,6 @@
             "id": "xx",
             "sourceId": "bb",
             "targetId": "aa",
-            "url": "/category/testone",
             "type": "hasChild"
         },
 
@@ -33,7 +35,6 @@
             "id": "yy",
             "sourceId": "cc",
             "targetId": "aa",
-            "url": "/category/testone",
             "type": "hasSource"
         },
 
@@ -41,7 +42,6 @@
             "id": "zz",
             "sourceId": "cc",
             "targetId": "bb",
-            "url": "/category/testone",
             "type": "hasChild"
         }
     ]
