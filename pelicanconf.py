@@ -47,8 +47,8 @@ MENUITEMS = [
 	('About', '/pages/about/')
 ]
     
-ARTICLE_URL = 'articles/{category}/{date:%Y}/{slug}/'
-ARTICLE_SAVE_AS = 'articles/{category}/{date:%Y}/{slug}/index.html'
+ARTICLE_URL = 'articles/{category}/{slug}/'
+ARTICLE_SAVE_AS = 'articles/{category}/{slug}/index.html'
 
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'

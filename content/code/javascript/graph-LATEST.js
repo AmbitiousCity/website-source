@@ -1,4 +1,4 @@
-var width = 500,
+var width = 800,
     height = 300;
 
 var color = d3.scale.category10();
@@ -15,15 +15,15 @@ var force = d3.layout.force()
 //Append a SVG to the body of the html page. Assign this SVG as an object to var svg
 var svg = d3.select("body").append("svg")
     .attr("width", width)
-    .attr("height", height)
-    .attr({
-        'xmlns': 'http://www.w3.org/2000/svg',
-        'xmlns:xmlns:xlink': 'http://www.w3.org/1999/xlink', // hack: doubling xmlns: so it doesn't disappear once in the DOM
-        version: '1.1'
-    });
+    .attr("height", height);
+// .attr({
+//     'xmlns': 'http://www.w3.org/2000/svg',
+//     'xmlns:xmlns:xlink': 'http://www.w3.org/1999/xlink', // hack: doubling xmlns: so it doesn't disappear once in the DOM
+//     version: '1.1'
+// });
 
 //Read the data from the json data file
-d3.json("/code/json/graph-LATEST.json", function(error, graph) {
+d3.json("/code/json/graph-mis-1.json", function(error, graph) {
     if (error) throw error;
 
     var nodes = graph.nodes,
@@ -32,13 +32,13 @@ d3.json("/code/json/graph-LATEST.json", function(error, graph) {
     //1st step: make an associative array of nodes--to refer to node objects by id
     var nodesDict = {};
     nodes.forEach(function(n) {
-        nodesDict[n.id] = n; //key => node.id; value => node
+        nodesDict[n.slug] = n; //key => node.slug; value => node
     });
 
     //2nd step: process each link
     graph.links.forEach(function(link) {
-        var s = nodesDict[link.sourceId],
-            t = nodesDict[link.targetId]
+        var s = nodesDict[link.source],
+            t = nodesDict[link.target]
 
         links.push({
             source: s,
@@ -88,14 +88,14 @@ d3.json("/code/json/graph-LATEST.json", function(error, graph) {
         .attr("class", "node")
         .append("svg:a")
         .attr("xlink:href", function(d) {
-            return d.url;
+            return "http://localhost:8000/articles/" + d.category + "/" + d.slug + "/index.html";
         })
         .call(force.drag);
 
     node.append("circle")
         .attr("r", 10)
         .style("fill", function(d) {
-            return color(d.group);
+            return color(d.category);
         });
 
     //node label
@@ -103,13 +103,13 @@ d3.json("/code/json/graph-LATEST.json", function(error, graph) {
         .attr("dx", 12)
         .attr("dy", ".35em")
         .text(function(d) {
-            return d.label;
+            return d.title;
         });
 
     //node long text on mouse hover
     node.append("title")
         .text(function(d) {
-            return d.text;
+            return d.summary;
         });
 
     // node.append("image")
@@ -135,6 +135,7 @@ d3.json("/code/json/graph-LATEST.json", function(error, graph) {
                 return d.target.y;
             });
 
+        //note that both circle and text (node label) must be selected
         d3.selectAll("circle").attr("cx", function(d) {
                 return d.x;
             })

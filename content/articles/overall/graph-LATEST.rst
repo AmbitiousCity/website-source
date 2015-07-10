@@ -2,9 +2,11 @@ Graph-LATEST
 ==================================================
 
 :slug: graph-LATEST
-:summary: 
-:tags: Amenity
+:summary: test
 :category: Graph
+:subcategory:
+:tags: Amenity
+
 
 
 .. raw:: html
