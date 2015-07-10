@@ -15,7 +15,12 @@ var force = d3.layout.force()
 //Append a SVG to the body of the html page. Assign this SVG as an object to var svg
 var svg = d3.select("body").append("svg")
     .attr("width", width)
-    .attr("height", height);
+    .attr("height", height)
+    .attr({
+        'xmlns': 'http://www.w3.org/2000/svg',
+        'xmlns:xmlns:xlink': 'http://www.w3.org/1999/xlink', // hack: doubling xmlns: so it doesn't disappear once in the DOM
+        version: '1.1'
+    });
 
 //Read the data from the json data file
 d3.json("/code/json/graph-LATEST.json", function(error, graph) {
@@ -81,23 +86,27 @@ d3.json("/code/json/graph-LATEST.json", function(error, graph) {
         .data(nodes)
         .enter().append("g")
         .attr("class", "node")
+        .append("svg:a")
+        .attr("xlink:href", function(d) {
+            return d.url;
+        })
         .call(force.drag);
 
     node.append("circle")
         .attr("r", 10)
         .style("fill", function(d) {
             return color(d.group);
-        })
+        });
 
-    //label text
+    //node label
     node.append("text")
         .attr("dx", 12)
         .attr("dy", ".35em")
         .text(function(d) {
-            return d.label
+            return d.label;
         });
 
-    //title on mouse hover
+    //node long text on mouse hover
     node.append("title")
         .text(function(d) {
             return d.text;
@@ -109,7 +118,6 @@ d3.json("/code/json/graph-LATEST.json", function(error, graph) {
     //     .attr("y", -8)
     //     .attr("width", 16)
     //     .attr("height", 16);
-
 
 
     //Give the SVGs co-ordinates - the force layout generates co-ordinates that this code uses to update the attributes of the SVG elements
