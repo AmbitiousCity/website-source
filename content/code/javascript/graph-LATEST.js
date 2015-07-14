@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var scripts = document.getElementsByTagName('script');
 var myScript = scripts[ scripts.length - 1 ];
 var queryString = myScript.src.replace(/^[^\?]+\??/,'');
@@ -17,6 +18,31 @@ function parseQuery (query) {
    }
    return Params;
 }
+=======
+//to center the graph at the current node; enables access to the query strings
+//http://feather.elektrum.org/book/src.html
+function parseQuery(query) {
+    var Params = new Object();
+    if (!query) return Params; // return empty object
+    var Pairs = query.split(/[;&]/);
+    for (var i = 0; i < Pairs.length; i++) {
+        var KeyVal = Pairs[i].split('=');
+        if (!KeyVal || KeyVal.length != 2) continue;
+        var key = unescape(KeyVal[0]);
+        var val = unescape(KeyVal[1]);
+        val = val.replace(/\+/g, ' ');
+        Params[key] = val;
+    }
+    return Params;
+}
+
+var scripts = document.getElementsByTagName('script');
+var myScript = scripts[scripts.length - 1];
+var queryString = myScript.src.replace(/^[^\?]+\??/, '');
+var params = parseQuery(queryString);
+var centerNode = params['centerNode']; //string value
+// alert('Center node slug name: ' + centerSlugName);
+>>>>>>> origin
 
 
 var width = 800,
@@ -26,7 +52,8 @@ var color = d3.scale.category10();
 
 //Set up the force layout
 var force = d3.layout.force()
-    .linkDistance(100) //distance we desire between connected nodes; greater the number, nodes farther apart
+
+.linkDistance(100) //distance we desire between connected nodes; greater the number, nodes farther apart
     // link distance is the expected distance between nodes => http://stackoverflow.com/questions/17355128/relation-between-linkdistance-and-linkstrength-in-d3-js-force-layout
     .linkStrength(1) //link strength as the speed at which you want to reach target distance on each iteration.
     .charge(-250) //lower the number, nodes farther apart; 
@@ -43,6 +70,7 @@ var svg = d3.select("body").append("svg")
 //     version: '1.1'
 // });
 
+
 //Read the data from the json data file
 d3.json("/code/json/" + params['fileName'], function(error, graph) {
 // d3.json("/code/json/graph-mis-1.json", function(error, graph) {
@@ -57,6 +85,7 @@ d3.json("/code/json/" + params['fileName'], function(error, graph) {
         nodesDict[n.slug] = n; //key => node.slug; value => node
     });
 
+
     //2nd step: process each link
     graph.links.forEach(function(link) {
         var s = nodesDict[link.source],
@@ -68,6 +97,11 @@ d3.json("/code/json/" + params['fileName'], function(error, graph) {
             type: link.type
         });
     });
+
+    var center = nodesDict[centerNode];
+    center.fixed = true;
+    center.x = width/3;
+    center.y = height/3;
 
     //Creates the graph data structure out of the json data
     force
