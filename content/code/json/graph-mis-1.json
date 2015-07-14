@@ -1,5 +1,6 @@
 {
-    "nodes": [{
+    "nodes": [
+        {
             "title": "How should we build cities now?",
             "slug": "how-should-we-build-cities-now",
             "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
@@ -27,7 +28,8 @@
         }
     ],
 
-    "links": [{
+    "links": [
+        {
             "source": "how-should-we-build-cities-now",
             "target": "build-cities-with-accessible-green-spaces",
             "type": "normal"
