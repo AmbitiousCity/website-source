@@ -35,10 +35,10 @@ var color = d3.scale.category10();
 //Set up the force layout
 var force = d3.layout.force()
 
-.linkDistance(50) //distance we desire between connected nodes; greater the number, nodes farther apart
+.linkDistance(35) //distance we desire between connected nodes; greater the number, nodes farther apart
     // link distance is the expected distance between nodes => http://stackoverflow.com/questions/17355128/relation-between-linkdistance-and-linkstrength-in-d3-js-force-layout
     .linkStrength(1.5) //link strength as the speed at which you want to reach target distance on each iteration.
-    .charge(-500) //lower the number, nodes farther apart; 
+    .charge(-350) //lower the number, nodes farther apart; 
     //negative charge values indicate repulsion, which is generally desirable for force-directed graphs
     .size([width, height]);
 
@@ -130,7 +130,7 @@ d3.json("/code/json/" + params['fileName'], function(error, graph) {
             if (d.hasArticle)
                 return "http://localhost:8000/articles/" + d.category + "/" + d.slug + "/";
             else
-                return "http://localhost:8000/";
+                return null;
         })
         .call(force.drag);
 
