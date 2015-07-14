@@ -37,7 +37,7 @@ var force = d3.layout.force()
 
 .linkDistance(50) //distance we desire between connected nodes; greater the number, nodes farther apart
     // link distance is the expected distance between nodes => http://stackoverflow.com/questions/17355128/relation-between-linkdistance-and-linkstrength-in-d3-js-force-layout
-    .linkStrength(2) //link strength as the speed at which you want to reach target distance on each iteration.
+    .linkStrength(1.5) //link strength as the speed at which you want to reach target distance on each iteration.
     .charge(-500) //lower the number, nodes farther apart; 
     //negative charge values indicate repulsion, which is generally desirable for force-directed graphs
     .size([width, height]);
@@ -55,7 +55,7 @@ var svg = d3.select("body").append("svg")
 
 //Read the data from the json data file
 d3.json("/code/json/" + params['fileName'], function(error, graph) {
-// d3.json("/code/json/graph-mis-1.json", function(error, graph) {
+    // d3.json("/code/json/graph-mis-1.json", function(error, graph) {
     if (error) throw error;
 
     var nodes = graph.nodes,
@@ -127,7 +127,10 @@ d3.json("/code/json/" + params['fileName'], function(error, graph) {
         .attr("class", "node")
         .append("svg:a")
         .attr("xlink:href", function(d) {
-            return "http://localhost:8000/articles/" + d.category + "/" + d.slug + "/";
+            if (d.hasArticle)
+                return "http://localhost:8000/articles/" + d.category + "/" + d.slug + "/";
+            else
+                return "http://localhost:8000/";
         })
         .call(force.drag);
 

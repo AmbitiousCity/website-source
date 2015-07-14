@@ -38,7 +38,7 @@
             "category": "source",
             "subcategory": "rhetorical",
             "tags": "",
-            "hasArticle": "true"
+            "hasArticle": "false"
         }
 
     ],
@@ -58,10 +58,6 @@
         }, {
             "source": "dd",
             "target": "ee",
-            "type": "normal"
-        }, {
-            "source": "ee",
-            "target": "aa",
             "type": "normal"
         }
 
