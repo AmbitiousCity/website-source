@@ -80,10 +80,11 @@ d3.json("/code/json/" + params['fileName'], function(error, graph) {
         });
     });
 
-    // var center = nodesDict[centerNode];
-    // center.fixed = true;
-    // center.x = width / 3;
-    // center.y = height / 3;
+    var c = params['centerNode']
+    var center = nodesDict[c];
+    center.fixed = true;
+    center.x = width / 3;
+    center.y = height / 3;
 
     //Creates the graph data structure out of the json data
     force
