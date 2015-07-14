@@ -10,28 +10,28 @@
             "title": "BB",
             "slug": "bb",
             "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
-            "category": "idea",
+            "category": "question",
             "subcategory": "rhetorical",
             "tags": ""
         }, {
             "title": "CC",
             "slug": "cc",
             "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
-            "category": "theory",
+            "category": "question",
             "subcategory": "rhetorical",
             "tags": ""
         }, {
             "title": "DD",
             "slug": "dd",
             "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
-            "category": "hunch",
+            "category": "question",
             "subcategory": "rhetorical",
             "tags": ""
         }, {
             "title": "EE",
             "slug": "ee",
             "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
-            "category": "source",
+            "category": "question",
             "subcategory": "rhetorical",
             "tags": ""
         }

@@ -127,7 +127,7 @@ d3.json("/code/json/" + params['fileName'], function(error, graph) {
         .attr("class", "node")
         .append("svg:a")
         .attr("xlink:href", function(d) {
-            return "http://localhost:8000/articles/" + d.category + "/" + d.slug + "/index.html";
+            return "http://localhost:8000/articles/" + d.category + "/" + d.slug + "/";
         })
         .call(force.drag);
 
