@@ -1,0 +1,139 @@
+{
+    "nodes": [{
+            "title": "AA",
+            "slug": "aa",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "question",
+            "subcategory": "rhetorical",
+            "tags": "startNode"
+        }, {
+            "title": "BB",
+            "slug": "bb",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "idea",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "CC",
+            "slug": "cc",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "theory",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "DD",
+            "slug": "dd",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "hunch",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "EE",
+            "slug": "ee",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "source",
+            "subcategory": "rhetorical",
+            "tags": ""
+        },
+
+
+        {
+            "title": "AA_",
+            "slug": "aa_",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "question",
+            "subcategory": "rhetorical",
+            "tags": "startNode"
+        }, {
+            "title": "BB_",
+            "slug": "bb_",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "idea",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "CC_",
+            "slug": "cc_",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "theory",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "DD_",
+            "slug": "dd_",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "hunch",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "EE_",
+            "slug": "ee_",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "source",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }
+
+    ],
+
+    "links": [{
+            "source": "aa",
+            "target": "bb",
+            "type": "normal"
+        }, {
+            "source": "bb",
+            "target": "cc",
+            "type": "normal"
+        }, {
+            "source": "cc",
+            "target": "dd",
+            "type": "normal"
+        }, {
+            "source": "dd",
+            "target": "ee",
+            "type": "normal"
+        }, {
+            "source": "ee",
+            "target": "aa",
+            "type": "normal"
+
+        },
+
+
+        {
+            "source": "aa",
+            "target": "aa_",
+            "type": "connector"
+        },
+
+        {
+            "source": "aa_",
+            "target": "aa",
+            "type": "connector"
+        },
+
+
+        {
+            "source": "aa_",
+            "target": "bb_",
+            "type": "normal"
+        }, {
+            "source": "bb_",
+            "target": "cc_",
+            "type": "normal"
+        }, {
+            "source": "cc_",
+            "target": "dd_",
+            "type": "normal"
+        }, {
+            "source": "dd_",
+            "target": "ee_",
+            "type": "normal"
+        }, {
+            "source": "ee_",
+            "target": "aa_",
+            "type": "normal"
+        }
+
+    ]
+}

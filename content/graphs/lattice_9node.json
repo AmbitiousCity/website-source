@@ -1,0 +1,120 @@
+{
+    "nodes": [{
+            "title": "AA",
+            "slug": "aa",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "question",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "BB",
+            "slug": "bb",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "idea",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "CC",
+            "slug": "cc",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "theory",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "DD",
+            "slug": "dd",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "hunch",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "EE",
+            "slug": "ee",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "source",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "FF",
+            "slug": "ff",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "hunch",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "GG",
+            "slug": "gg",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "hunch",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "HH",
+            "slug": "hh",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "hunch",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "II",
+            "slug": "ii",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "hunch",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }
+
+    ],
+
+    "links": [{
+            "source": "aa",
+            "target": "bb",
+            "type": "normal"
+        }, {
+            "source": "bb",
+            "target": "cc",
+            "type": "normal"
+        }, {
+            "source": "dd",
+            "target": "ee",
+            "type": "normal"
+        }, {
+            "source": "ee",
+            "target": "ff",
+            "type": "normal"
+        }, {
+            "source": "gg",
+            "target": "hh",
+            "type": "normal"
+        }, {
+            "source": "hh",
+            "target": "ii",
+            "type": "normal"
+        }, {
+            "source": "aa",
+            "target": "dd",
+            "type": "normal"
+        }, {
+            "source": "bb",
+            "target": "ee",
+            "type": "normal"
+        }, {
+            "source": "cc",
+            "target": "ff",
+            "type": "normal"
+        }, {
+            "source": "dd",
+            "target": "gg",
+            "type": "normal"
+        }, {
+            "source": "ee",
+            "target": "hh",
+            "type": "normal"
+        }, {
+            "source": "ff",
+            "target": "ii",
+            "type": "normal"
+        }
+
+    ]
+}

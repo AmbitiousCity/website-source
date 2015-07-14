@@ -18,7 +18,7 @@ Graph-LATEST
 
 	<body>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-	<script src="/code/javascript/graph-LATEST.js"></script>
+	<script src="/code/javascript/graph-LATEST.js?fileName=graph-mis-1.json"></script>
 
 	
 

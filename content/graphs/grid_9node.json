@@ -1,0 +1,70 @@
+{
+    "nodes": [{
+            "title": "01",
+            "slug": "01",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "question",
+            "subcategory": "rhetorical",
+            "tags": "startNode"
+        }, {
+            "title": "02",
+            "slug": "02",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "idea",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "03",
+            "slug": "03",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "theory",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "04",
+            "slug": "04",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "hunch",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "05",
+            "slug": "05",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "source",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "06",
+            "slug": "06",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "theory",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "07",
+            "slug": "07",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "hunch",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "08",
+            "slug": "08",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "source",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }, {
+            "title": "09",
+            "slug": "09",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "source",
+            "subcategory": "rhetorical",
+            "tags": ""
+        }
+
+    ],
+
+    "links": []
+}
