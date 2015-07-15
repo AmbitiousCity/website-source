@@ -1,11 +1,14 @@
-Graph-LATEST
+Graph_dd
 ==================================================
 
-:slug: graph-LATEST
+:slug: dd
 :summary: test
-:category: Graph
+:category: Hypothesis
 :subcategory:
 :tags: Amenity
+:summary: "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt"
+
+Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt
 
 
 .. raw:: html
@@ -15,7 +18,7 @@ Graph-LATEST
 	<link rel="stylesheet" type="text/css" href="/code/css/graphParts.css">
 	<body><script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 
-	<script src="/code/javascript/graph-LATEST.js?fileName=grid_9node.json;centerNode=01"></script>
+	<script src="/code/javascript/graph-d3.js?fileName=loop_5node.json;centerNode=dd"></script>
 
 	
 

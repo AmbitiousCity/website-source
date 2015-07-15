@@ -54,8 +54,8 @@ var svg = d3.select("body").append("svg")
 
 
 //Read the data from the json data file
-d3.json("/code/json/" + params['fileName'], function(error, graph) {
-    // d3.json("/code/json/graph-mis-1.json", function(error, graph) {
+d3.json("/article-graphs/" + params['fileName'], function(error, graph) {
+    // d3.json("/article-graphs/graph-mis-1.json", function(error, graph) {
     if (error) throw error;
 
     var nodes = graph.nodes,

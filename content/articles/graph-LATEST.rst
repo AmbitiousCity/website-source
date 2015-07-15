@@ -1,14 +1,11 @@
-Graph_aa
+Graph-LATEST
 ==================================================
 
-:slug: aa
+:slug: graph-LATEST
 :summary: test
-:category: Question
+:category: Graph
 :subcategory:
 :tags: Amenity
-:summary: "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt"
-
-Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt
 
 
 .. raw:: html
@@ -18,7 +15,7 @@ Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nes
 	<link rel="stylesheet" type="text/css" href="/code/css/graphParts.css">
 	<body><script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 
-	<script src="/code/javascript/graph-LATEST.js?fileName=loop_5node.json;centerNode=aa"></script>
+	<script src="/code/javascript/graph-d3.js?fileName=grid_9node.json;centerNode=01"></script>
 
 	
 
