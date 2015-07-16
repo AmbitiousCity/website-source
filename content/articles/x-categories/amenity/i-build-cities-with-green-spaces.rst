@@ -5,6 +5,7 @@ Idea: Build cities with green spaces
 :summary:
 :category: Idea
 :tags: Amenity
+:status: draft
 
 .. children:
 ..     q-how-can-green-spaces-be-added-to-existing-cities?

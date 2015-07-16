@@ -5,5 +5,4 @@ How can green spaces be added to existing cities?
 :summary:
 :tags: Amenity
 :category: Question
-
-.. :status: 
+:status: draft

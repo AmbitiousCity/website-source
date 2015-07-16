@@ -27,7 +27,7 @@ var params = parseQuery(queryString);
 // var centerNode = params['centerNode']; //string value
 // alert('Center node slug name: ' + centerSlugName);
 
-var width = 500,
+var width = 600,
     height = 300;
 
 var color = d3.scale.category10();
@@ -46,15 +46,9 @@ var force = d3.layout.force()
 var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
-// .attr({
-//     'xmlns': 'http://www.w3.org/2000/svg',
-//     'xmlns:xmlns:xlink': 'http://www.w3.org/1999/xlink', // hack: doubling xmlns: so it doesn't disappear once in the DOM
-//     version: '1.1'
-// });
-
 
 //Read the data from the json data file
-d3.json("/article-graphs/" + params['fileName'], function(error, graph) {
+d3.json("/article-graphs/" + params['graphName'], function(error, graph) {
     // d3.json("/article-graphs/graph-mis-1.json", function(error, graph) {
     if (error) throw error;
 
@@ -80,11 +74,11 @@ d3.json("/article-graphs/" + params['fileName'], function(error, graph) {
         });
     });
 
-    var c = params['centerNode']
-    var center = nodesDict[c];
-    center.fixed = true;
-    center.x = width / 3;
-    center.y = height / 3;
+    var center = params['centerNode']
+    var centerNode = nodesDict[center];
+    centerNode.fixed = true;
+    centerNode.x = width/4;
+    centerNode.y = height/4;
 
     //Creates the graph data structure out of the json data
     force
@@ -127,8 +121,8 @@ d3.json("/article-graphs/" + params['fileName'], function(error, graph) {
         .attr("class", "node")
         .append("svg:a")
         .attr("xlink:href", function(d) {
-            if (d.hasArticle)
-                return "http://localhost:8000/articles/" + d.category + "/" + d.slug + "/";
+            if (d.hasArticle=="true")
+                return "/articles/" + d.category + "/" + d.slug + "/";
             else
                 return null;
         })

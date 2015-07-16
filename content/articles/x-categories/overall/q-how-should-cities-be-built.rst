@@ -4,6 +4,7 @@ How should cities be built?
 :category: Question
 :tags: 
 :summary: If we could build them again, how would we build them?
+:status: draft
 
 .. :save_as: index.html
 

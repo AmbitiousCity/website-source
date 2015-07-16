@@ -5,6 +5,7 @@ Test graph Graphviz
 :summary: 
 :tags: Amenity
 :category: Graph
+:status: draft
 
 
 .. figure:: /images/graphs/graph-url-test-3.svg
