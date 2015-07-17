@@ -1,4 +1,16 @@
-//first, get the params for this web page
+var CIRCLE_RAD = 36;
+var LINK_DISTANCE = 100;
+var LINK_STRENGTH = 1.5;
+var REPULSION = -500;
+var color = d3.scale.category20();
+
+//marker ends
+var REFX = CIRCLE_RAD; //25
+var REFY = 0; //0
+var MARKER_WIDTH = CIRCLE_RAD / 4; //6
+var MARKER_HEIGHT = CIRCLE_RAD / 4; //6
+
+// get the params for this web page
 var scripts = document.getElementsByTagName('script');
 var myScript = scripts[scripts.length - 1];
 var queryString = myScript.src.replace(/^[^\?]+\??/, '');
@@ -24,21 +36,38 @@ var myScript = scripts[scripts.length - 1];
 var queryString = myScript.src.replace(/^[^\?]+\??/, '');
 var params = parseQuery(queryString);
 
+//for combining json files
+//http://stackoverflow.com/questions/21450060/how-to-join-two-json-object-in-javascript-without-using-jquery
+var _mergeRecursive = function(obj1, obj2) {
+    //iterate over all the properties in the object which is being consumed
+    for (var p in obj2) {
+        // Property in destination object set; update its value.
+        if (obj2.hasOwnProperty(p) && typeof obj1[p] !== "undefined") {
+            _mergeRecursive(obj1[p], obj2[p]);
+
+        } else {
+            //We don't have that level in the heirarchy so add it
+            obj1[p] = obj2[p];
+
+        }
+    }
+}
+
 // var centerNode = params['centerNode']; //string value
 // alert('Center node slug name: ' + centerSlugName);
 
 var width = 600,
     height = 300;
 
-var color = d3.scale.category10();
+
 
 //Set up the force layout
 var force = d3.layout.force()
 
-.linkDistance(35) //distance we desire between connected nodes; greater the number, nodes farther apart
+.linkDistance(LINK_DISTANCE) //distance we desire between connected nodes; greater the number, nodes farther apart
     // link distance is the expected distance between nodes => http://stackoverflow.com/questions/17355128/relation-between-linkdistance-and-linkstrength-in-d3-js-force-layout
-    .linkStrength(1.5) //link strength as the speed at which you want to reach target distance on each iteration.
-    .charge(-350) //lower the number, nodes farther apart; 
+    .linkStrength(LINK_STRENGTH) //link strength as the speed at which you want to reach target distance on each iteration.
+    .charge(REPULSION) //lower the number, nodes farther apart; 
     //negative charge values indicate repulsion, which is generally desirable for force-directed graphs
     .size([width, height]);
 
@@ -74,11 +103,11 @@ d3.json("/article-graphs/" + params['graphName'], function(error, graph) {
         });
     });
 
-    var center = params['centerNode']
-    var centerNode = nodesDict[center];
-    centerNode.fixed = true;
-    centerNode.x = width/4;
-    centerNode.y = height/4;
+    // var center = params['centerNode']
+    // var centerNode = nodesDict[center];
+    // centerNode.fixed = true;
+    // centerNode.x = width/4;
+    // centerNode.y = height/4;
 
     //Creates the graph data structure out of the json data
     force
@@ -94,10 +123,10 @@ d3.json("/article-graphs/" + params['graphName'], function(error, graph) {
             return d;
         })
         .attr("viewBox", "0 -5 10 10")
-        .attr("refX", 25)
-        .attr("refY", 0)
-        .attr("markerWidth", 6)
-        .attr("markerHeight", 6)
+        .attr("refX", REFX) //25
+        .attr("refY", REFY) //0
+        .attr("markerWidth", MARKER_WIDTH) //6
+        .attr("markerHeight", MARKER_HEIGHT) //6
         .attr("orient", "auto")
         .append("path")
         .attr("d", "M0,-5L10,0L0,5 L10,0 L0, -5")
@@ -121,7 +150,7 @@ d3.json("/article-graphs/" + params['graphName'], function(error, graph) {
         .attr("class", "node")
         .append("svg:a")
         .attr("xlink:href", function(d) {
-            if (d.hasArticle=="true")
+            if (d.hasArticle == "true")
                 return "/articles/" + d.category + "/" + d.slug + "/";
             else
                 return null;
@@ -129,7 +158,7 @@ d3.json("/article-graphs/" + params['graphName'], function(error, graph) {
         .call(force.drag);
 
     node.append("circle")
-        .attr("r", 10)
+        .attr("r", CIRCLE_RAD)
         .style("fill", function(d) {
             return color(d.category);
         });

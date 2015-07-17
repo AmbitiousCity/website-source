@@ -115,47 +115,7 @@
 
     "links": [
 
-        {
-            "source": "what-makes-a-good-question-for-urban-design",
-            "target": "is-a-real-question",
-            "type": "normal"
-        },
 
-        {
-            "source": "what-makes-a-good-question-for-urban-design",
-            "target": "doesn't-embed-its-answer-within-it",
-            "type": "normal"
-        },
-
-        {
-            "source": "what-makes-a-good-question-for-urban-design",
-            "target": "asks-a-single-thing",
-            "type": "normal"
-        },
-
-        {
-            "source": "what-makes-a-good-question-for-urban-design",
-            "target": "encourages-creative-thinking",
-            "type": "normal"
-        },
-
-        {
-            "source": "why-are-urban-planners-so-concerned-about-density",
-            "target": "infrastructure-is-less-expensive-to-build",
-            "type": "normal"
-        },
-
-        {
-            "source": "why-are-urban-planners-so-concerned-about-density",
-            "target": "non-urban-land-uses-such-as-farming-is-less-threatened",
-            "type": "normal"
-        },
-
-        {
-            "source": "why-are-urban-planners-so-concerned-about-density",
-            "target": "increases-chance-of-productive-interactions-between-people",
-            "type": "normal"
-        }
 
     ]
 }
