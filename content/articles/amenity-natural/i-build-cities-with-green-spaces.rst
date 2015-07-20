@@ -1,7 +1,7 @@
 Idea: Build cities with green spaces
 ==================================================
 
-:slug: Build cities with green spaces
+:slug: i-build-cities-with-green-spaces
 :summary:
 :category: Idea
 :tags: Amenity
@@ -25,11 +25,11 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ----
 
-**Parent**:
-`How should cities be built? <{filename} ../overall/q-how-should-cities-be-built.rst>`_
+.. **Parent**:
+.. `How should cities be built? <{filename} ../overall/q-how-should-cities-be-built.rst>`_
 
-**Children**:
-`How can green spaces be added to existing cities? <{filename} q-how-can-green-spaces-be-added-to-existing-cities.rst>`_
+.. **Children**:
+.. `How can green spaces be added to existing cities? <{filename} q-how-can-green-spaces-be-added-to-existing-cities.rst>`_
 
-**Sources:**
-`The economy of cities <{filename} ../sources/s-jacobs1970economy.rst>`_
+.. **Sources:**
+.. `The economy of cities <{filename} ../sources/s-jacobs1970economy.rst>`_

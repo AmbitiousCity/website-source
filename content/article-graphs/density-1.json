@@ -1,14 +1,78 @@
 {
     "nodes": [
-    {
-        "title": "Why are urban planners so concerned about density?",
-        "slug": "why-are-urban-planners-so-concerned-about-density",
-        "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
-        "category": "question",
-        "subcategory": "rhetorical",
-        "tags": "Density",
-        "hasArticle": "true"
-    }
+
+        {
+            "title": "Why are planners so concerned with urban density?",
+            "slug": "q-why-are-planners-so-concerned-with-urban-density",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "true"
+        },
+
+        {
+            "title": "What types of urban densities are there?",
+            "slug": "q-what-types-of-urban-densities-are-there",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "What about people who prefer to live in less dense cities?",
+            "slug": "q-what-about-people-who-prefer-to-live-in-less-dense-cities",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "Should cities attempt to achieve a standard density?",
+            "slug": "q-should-cities-attempt-to-achieve-a-standard-density",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "Should the density of new cities be different from that of existing cities?",
+            "slug": "q-should-the-density-of-new-cities-be-different-from-that-of-existing-cities",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "Should lower density buildings always be replaced by higher density ones?",
+            "slug": "q-should-lower-density-buildings-always-be-replaced-by-higher-density-ones",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "It is preferable to increase density or to preserve heritage?",
+            "slug": "q-it-is-preferable-to-increase-density-or-to-preserve-heritage",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "false"
+        }
+
+
+
 
     ],
 

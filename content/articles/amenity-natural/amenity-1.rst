@@ -1,18 +1,19 @@
-What makes a good question (for urban design)?
+Should city dwellers have access to nature?
 ==================================================
 
-:slug: what-makes-a-good-question
-:summary: What makes a good question (for urban design)?
+:slug: q-should-city-dwellers-have-access-to-nature
+:summary: Should city dwellers have access to nature?
 :category: Question
 :subcategory:
-:tags: Questions
+:tags: Amenity
 :summary: "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt"
-:status: draft
+
 
 Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt 
 Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt
 
-
+More questions about access to nature in cities
+---------------------------------------------------------
 
 .. raw:: html
 
@@ -21,5 +22,5 @@ Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nes
 	<link rel="stylesheet" type="text/css" href="/code/css/graphParts.css">
 	<body><script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 
-	<script src="/code/javascript/graph-d3.js?graphName=graph-total-1.json;centerNode=what-makes-a-good-question">
+	<script src="/code/javascript/graph-d3.js?graphName=amenity-1.json;centerNode=q-should-city-dwellers-have-access-to-nature>
 	</script>

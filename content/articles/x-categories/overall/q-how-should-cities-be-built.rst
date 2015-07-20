@@ -22,15 +22,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ----
 
-**Test Graph**
-`Graph <{filename} test-graph.rst>`_
+.. **Test Graph**
+.. `Graph <{filename} test-graph.rst>`_
 
-**Parent:** Top level
+.. **Parent:** Top level
 
-**Children:**
-`Build Cities with Green Spaces <{filename} ../amenity/i-build-cities-with-green-spaces.rst>`_ |
-`Build Cities with Green Spaces <{filename} ../amenity/i-build-cities-with-green-spaces.rst>`_
+.. **Children:**
+.. `Build Cities with Green Spaces <{filename} ../amenity/i-build-cities-with-green-spaces.rst>`_ |
+.. `Build Cities with Green Spaces <{filename} ../amenity/i-build-cities-with-green-spaces.rst>`_
 
-**Sources:** 
-`The economy of cities <{filename} ../sources/s-jacobs1970economy.rst>`_
+.. **Sources:** 
+.. `The economy of cities <{filename} ../sources/s-jacobs1970economy.rst>`_
 

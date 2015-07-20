@@ -1,0 +1,34 @@
+{
+    "nodes": [{
+            "title": "Long title aa",
+            "slug": "aa",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "question",
+            "subcategory": "rhetorical",
+            "tags": "startNode",
+            "hasArticle": "true"
+        }, {
+            "title": "Long title bb",
+            "slug": "bb",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "idea",
+            "subcategory": "rhetorical",
+            "tags": "",
+            "hasArticle": "true"
+        }
+
+    ],
+
+    "links": [{
+            "source": "aa",
+            "target": "bb",
+            "type": "normal"
+        }, {
+            "source": "bb",
+            "target": "aa",
+            "type": "normal"
+        }
+
+    ]
+}
+
