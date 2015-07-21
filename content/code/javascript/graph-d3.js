@@ -1,8 +1,11 @@
 var CIRCLE_RAD = 36;
+var CIRCLE_RAD_LARGE = 44;
 var LINK_DISTANCE = 100;
 var LINK_STRENGTH = 1.5;
 var REPULSION = -500;
 var color = d3.scale.category20();
+var SCREEN_WIDTH = 600;
+var SCREEN_HEIGHT = 300;
 
 //marker ends
 var REFX = CIRCLE_RAD; //25
@@ -31,10 +34,11 @@ function parseQuery(query) {
     return Params;
 }
 
-var scripts = document.getElementsByTagName('script');
-var myScript = scripts[scripts.length - 1];
-var queryString = myScript.src.replace(/^[^\?]+\??/, '');
-var params = parseQuery(queryString);
+// var graphA = params['graphA'];
+// alert('graphA: ' + graphA);
+
+
+
 
 //for combining json files
 //http://stackoverflow.com/questions/21450060/how-to-join-two-json-object-in-javascript-without-using-jquery
@@ -53,12 +57,8 @@ var _mergeRecursive = function(obj1, obj2) {
     }
 }
 
-// var centerNode = params['centerNode']; //string value
+// var currentNode = params['currentNode']; //string value
 // alert('Center node slug name: ' + centerSlugName);
-
-var width = 600,
-    height = 300;
-
 
 
 //Set up the force layout
@@ -69,15 +69,18 @@ var force = d3.layout.force()
     .linkStrength(LINK_STRENGTH) //link strength as the speed at which you want to reach target distance on each iteration.
     .charge(REPULSION) //lower the number, nodes farther apart; 
     //negative charge values indicate repulsion, which is generally desirable for force-directed graphs
-    .size([width, height]);
+    .size([SCREEN_WIDTH, SCREEN_HEIGHT]);
 
 //Append a SVG to the body of the html page. Assign this SVG as an object to var svg
 var svg = d3.select("body").append("svg")
-    .attr("width", width)
-    .attr("height", height);
+    .attr("width", SCREEN_WIDTH)
+    .attr("height", SCREEN_HEIGHT);
+
+var graphPathA = "/article-graphs/" + params['graphA'];
+// alert("graphPathA: " params['graphA']);
 
 //Read the data from the json data file
-d3.json("/article-graphs/" + params['graphName'], function(error, graph) {
+d3.json(graphPathA, function(error, graph) {
     // d3.json("/article-graphs/graph-mis-1.json", function(error, graph) {
     if (error) throw error;
 
@@ -103,11 +106,11 @@ d3.json("/article-graphs/" + params['graphName'], function(error, graph) {
         });
     });
 
-    // var center = params['centerNode']
-    // var centerNode = nodesDict[center];
-    // centerNode.fixed = true;
-    // centerNode.x = width/4;
-    // centerNode.y = height/4;
+    // var currentNode = nodesDict[params['currentNode']];
+    // currentNode.fixed = true;
+    // currentNode.x = SCREEN_WIDTH/4;
+    // currentNode.y = SCREEN_HEIGHT/4;
+    // alert('currentNode: ' + currentNode);
 
     //Creates the graph data structure out of the json data
     force
@@ -160,8 +163,17 @@ d3.json("/article-graphs/" + params['graphName'], function(error, graph) {
     node.append("circle")
         .attr("r", CIRCLE_RAD)
         .style("fill", function(d) {
-            return color(d.category);
+            return color(d.category)
         });
+
+    // node.append("circle")
+    //     .attr("r", CIRCLE_RAD_LARGE)
+    //     .style("fill", function(d) {
+    //         if (currentNode == d.slug)
+    //             return color();
+    //         else
+    //             return null;
+    //     });
 
     //node label
     node.append("text")
@@ -183,7 +195,6 @@ d3.json("/article-graphs/" + params['graphName'], function(error, graph) {
     //     .attr("y", -8)
     //     .attr("width", 16)
     //     .attr("height", 16);
-
 
     //Give the SVGs co-ordinates - the force layout generates co-ordinates that this code uses to update the attributes of the SVG elements
     force.on("tick", function() {

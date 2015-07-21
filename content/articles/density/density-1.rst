@@ -19,7 +19,8 @@ Why are planners so concerned with urban density?
 
 Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt
 
-More questions about urban density
+
+Questions about urban density
 --------------------------------------------------
 
 .. raw:: html
@@ -29,7 +30,7 @@ More questions about urban density
 	<link rel="stylesheet" type="text/css" href="/code/css/graphParts.css">
 	<body><script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 
-	<script src="/code/javascript/graph-d3.js?graphName=density-1.json;centerNode=why-are-people-so-concerned-about-urban-density>
+	<script src="/code/javascript/graph-d3.js?graphA=density-1.json;currentNode=q-why-are-planners-so-concerned-with-urban-density>
 	</script>
 
 
