@@ -1,11 +1,13 @@
 var CIRCLE_RAD = 36;
-var CIRCLE_RAD_LARGE = 44;
+var CIRCLE_RAD_LARGE = CIRCLE_RAD * 1.25;
 var LINK_DISTANCE = 100;
 var LINK_STRENGTH = 1.5;
 var REPULSION = -500;
 var color = d3.scale.category20();
 var SCREEN_WIDTH = 600;
 var SCREEN_HEIGHT = 300;
+var NODE_OPACITY = 1;
+var NODE_STROKE = "red";
 
 //marker ends
 var REFX = CIRCLE_RAD; //25
@@ -38,8 +40,6 @@ function parseQuery(query) {
 // alert('graphA: ' + graphA);
 
 
-
-
 //for combining json files
 //http://stackoverflow.com/questions/21450060/how-to-join-two-json-object-in-javascript-without-using-jquery
 var _mergeRecursive = function(obj1, obj2) {
@@ -57,8 +57,6 @@ var _mergeRecursive = function(obj1, obj2) {
     }
 }
 
-// var currentNode = params['currentNode']; //string value
-// alert('Center node slug name: ' + centerSlugName);
 
 
 //Set up the force layout
@@ -77,7 +75,8 @@ var svg = d3.select("body").append("svg")
     .attr("height", SCREEN_HEIGHT);
 
 var graphPathA = "/article-graphs/" + params['graphA'];
-// alert("graphPathA: " params['graphA']);
+// alert("graphPathA: " + graphPathA); //works
+// alert("thisNode: " + params['thisNode']); //works
 
 //Read the data from the json data file
 d3.json(graphPathA, function(error, graph) {
@@ -106,11 +105,11 @@ d3.json(graphPathA, function(error, graph) {
         });
     });
 
-    // var currentNode = nodesDict[params['currentNode']];
-    // currentNode.fixed = true;
-    // currentNode.x = SCREEN_WIDTH/4;
-    // currentNode.y = SCREEN_HEIGHT/4;
-    // alert('currentNode: ' + currentNode);
+    // var thisNode = nodesDict[params['thisNode']];
+    // thisNode.fixed = true;
+    // thisNode.x = SCREEN_WIDTH/4;
+    // thisNode.y = SCREEN_HEIGHT/4;
+    // alert('thisNode: ' + thisNode);
 
     //Creates the graph data structure out of the json data
     force
@@ -160,20 +159,24 @@ d3.json(graphPathA, function(error, graph) {
         })
         .call(force.drag);
 
+    // var curr = params['thisNode'];
+    // alert("Curr: " + curr);
+
     node.append("circle")
         .attr("r", CIRCLE_RAD)
+        .style("opacity", NODE_OPACITY)
+        .style("stroke", NODE_STROKE)
+        .style("stroke-width", function(d) {
+            if (d.slug === params['thisNode'])
+                return 5;
+            else
+                return 1;
+        })
         .style("fill", function(d) {
             return color(d.category)
         });
 
-    // node.append("circle")
-    //     .attr("r", CIRCLE_RAD_LARGE)
-    //     .style("fill", function(d) {
-    //         if (currentNode == d.slug)
-    //             return color();
-    //         else
-    //             return null;
-    //     });
+    // stroke:pink;stroke-width:5
 
     //node label
     node.append("text")

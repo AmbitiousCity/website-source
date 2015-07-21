@@ -24,5 +24,5 @@ More questions about access to nature in cities
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 
-	<script src="/code/javascript/graph-d3.js?graphA=amenity-1.json;graphB=density-1.json;centerNode=q-should-city-dwellers-have-access-to-nature>
+	<script src="/code/javascript/graph-d3.js?graphA=amenity-1.json;thisNode=q-should-city-dwellers-have-access-to-nature">
 	</script>
