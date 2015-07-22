@@ -9,7 +9,7 @@ var color = d3.scale.category20();
 var SCREEN_WIDTH = 600;
 var SCREEN_HEIGHT = 300;
 var NODE_OPACITY = 1;
-var NODE_STROKE = "grey"; //"orange"
+var NODE_STROKE = "orange"; //"orange"
 var NODE_STROKE_WIDTH = 4;
 // var NODE_STROKE = "#666";
 

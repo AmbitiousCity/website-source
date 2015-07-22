@@ -39,7 +39,7 @@ SITELOGO_SIZE = 205
 STATIC_PATHS = ['pages', 'pdfs', 'images', 'article-graphs', 'code'] # 'downloads']
 FAVICON = 'images/favicon.ico'
 DISPLAY_PAGES_ON_MENU = False
-HIDE_SIDEBAR = False
+HIDE_SIDEBAR = True
 
 MENUITEMS = [
 	('Questions', '/category/question/'),
