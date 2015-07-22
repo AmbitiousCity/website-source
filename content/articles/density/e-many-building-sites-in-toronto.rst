@@ -43,10 +43,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 			<figcaption>Sunrise in Eastern Colorado</figcaption>
 		</figure>
 
-	
-
-
-	</div> <!-- // bss-slides -->
+	</div>
 
 	<script>
 		var opts = {
