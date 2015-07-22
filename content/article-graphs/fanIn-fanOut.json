@@ -1,0 +1,83 @@
+{
+    "nodes": [
+
+        {
+            "title": "Many building sites in Toronto",
+            "slug": "e-many-building-sites-in-toronto",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "evidence",
+            "subcategory": "",
+            "tags": "startNode",
+            "hasArticle": "true"
+        },
+
+        {
+            "title": "John Lorinc book",
+            "slug": "s-john-lorinc-book",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "source",
+            "subcategory": "",
+            "tags": "",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "Why does Toronto have such an extended building boom?",
+            "slug": "q-why-does-toronto-have-such-an-extended-building-boom",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "question",
+            "subcategory": "",
+            "tags": "",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "Building to invest in a safe haven",
+            "slug": "h-building-to-invest-in-a-safe-haven",
+            "summary": "Building to create a safe haven",
+            "category": "hypothesis",
+            "subcategory": "",
+            "tags": "",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "Building to raise a family",
+            "slug": "h-building-to-raise-a-family",
+            "summary": "Building to create a safe haven",
+            "category": "hypothesis",
+            "subcategory": "",
+            "tags": "",
+            "hasArticle": "false"
+        }
+
+    ],
+
+    "links": [
+
+        {
+            "source": "e-many-building-sites-in-toronto",
+            "target": "q-why-does-toronto-have-such-an-extended-building-boom",
+            "type": "normal"
+        },
+
+        {
+            "source": "s-john-lorinc-book",
+            "target": "q-why-does-toronto-have-such-an-extended-building-boom",
+            "type": "normal"
+        },
+
+        {
+            "source": "q-why-does-toronto-have-such-an-extended-building-boom",
+            "target": "h-building-to-invest-in-a-safe-haven",
+            "type": "normal"
+        },
+
+        {
+            "source": "q-why-does-toronto-have-such-an-extended-building-boom",
+            "target": "h-building-to-raise-a-family",
+            "type": "normal"
+        }
+
+    ]
+}

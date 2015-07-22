@@ -12,6 +12,16 @@
         },
 
         {
+            "title": "What does having access to nature in cities mean?",
+            "slug": "q-what-does-having-access-to-nature-in-cities-mean",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Amenity",
+            "hasArticle": "false"
+        },
+
+        {
             "title": "How near-at-hand should nature be for city dwellers?",
             "slug": "q-how-near-at-hand-should-nature-be-for-city-dwellers",
             "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
@@ -45,6 +55,12 @@
     ],
 
     "links": [
+
+        {
+            "source": "q-should-city-dwellers-have-access-to-nature",
+            "target": "q-what-does-having-access-to-nature-in-cities-mean",
+            "type": "normal"
+        }
 
     ]
 }

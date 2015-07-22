@@ -12,6 +12,16 @@
         },
 
         {
+            "title": "What does urban density mean?",
+            "slug": "q-what-does-urban-density-mean",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "false"
+        },
+
+        {
             "title": "What types of urban densities are there?",
             "slug": "q-what-types-of-urban-densities-are-there",
             "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
@@ -77,6 +87,18 @@
     ],
 
     "links": [
+
+        {
+            "source": "q-why-are-planners-so-concerned-with-urban-density",
+            "target": "q-what-does-urban-density-mean",
+            "type": "normal"
+        },
+
+        {
+            "source": "q-what-does-urban-density-mean",
+            "target": "q-what-types-of-urban-densities-are-there",
+            "type": "normal"
+        }
 
     ]
 }

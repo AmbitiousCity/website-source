@@ -1,16 +1,20 @@
-var CIRCLE_RAD = 36;
-var CIRCLE_RAD_LARGE = CIRCLE_RAD * 1.25;
-var LINK_DISTANCE = 100;
+var CIRCLE_RAD = 28;
+var CIRCLE_RAD_Q = CIRCLE_RAD;
+var CIRCLE_RAD_NONQ = CIRCLE_RAD_Q * 0.75;
+var CIRCLE_RAD_LARGE = CIRCLE_RAD * 1.35;
+var LINK_DISTANCE = 110;
 var LINK_STRENGTH = 1.5;
-var REPULSION = -500;
+var REPULSION = -600;
 var color = d3.scale.category20();
 var SCREEN_WIDTH = 600;
 var SCREEN_HEIGHT = 300;
 var NODE_OPACITY = 1;
-var NODE_STROKE = "red";
+var NODE_STROKE = "grey"; //"orange"
+var NODE_STROKE_WIDTH = 4;
+// var NODE_STROKE = "#666";
 
 //marker ends
-var REFX = CIRCLE_RAD; //25
+var REFX = CIRCLE_RAD_LARGE; //25
 var REFY = 0; //0
 var MARKER_WIDTH = CIRCLE_RAD / 4; //6
 var MARKER_HEIGHT = CIRCLE_RAD / 4; //6
@@ -163,14 +167,19 @@ d3.json(graphPathA, function(error, graph) {
     // alert("Curr: " + curr);
 
     node.append("circle")
-        .attr("r", CIRCLE_RAD)
+        .attr("r", function(d) {
+            if (d.category === 'Question')
+                return CIRCLE_RAD_Q;
+            else
+                return CIRCLE_RAD_NONQ;
+        })
         .style("opacity", NODE_OPACITY)
         .style("stroke", NODE_STROKE)
         .style("stroke-width", function(d) {
             if (d.slug === params['thisNode'])
-                return 5;
+                return NODE_STROKE_WIDTH;
             else
-                return 1;
+                return 0;
         })
         .style("fill", function(d) {
             return color(d.category)

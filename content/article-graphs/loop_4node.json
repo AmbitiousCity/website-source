@@ -1,0 +1,58 @@
+{
+    "nodes": [{
+            "title": "Many building sites in Toronto",
+            "slug": "e-many-building-sites-in-toronto",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "Evidence",
+            "subcategory": "rhetorical",
+            "tags": "startNode",
+            "hasArticle": "false"
+        }, {
+            "title": "John Lorinc book",
+            "slug": "s-john-lorinc-book",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "Source",
+            "subcategory": "",
+            "tags": "",
+            "hasArticle": "false"
+        }, {
+            "title": "Building to create a safe haven",
+            "slug": "h-building-to-create-a-safe-haven",
+            "summary": "Building to create a safe haven",
+            "category": "Hypothesis",
+            "subcategory": "",
+            "tags": "",
+            "hasArticle": "false"
+        }, {
+            "title": "When will Toronto stop building?",
+            "slug": "q-when-will-toronto-stop-building",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "",
+            "hasArticle": "false"
+        }
+
+    ],
+
+    "links": [{
+            "source": "e-many-building-sites-in-toronto",
+            "target": "s-john-lorinc-book",
+            "type": "normal"
+        }, {
+            "source": "s-john-lorinc-book",
+            "target": "h-building-to-create-a-safe-haven",
+            "type": "normal"
+        }, {
+            "source": "h-building-to-create-a-safe-haven",
+            "target": "q-when-will-toronto-stop-building",
+            "type": "normal"
+        }, {
+            "source": "q-when-will-toronto-stop-building",
+            "target": "e-many-building-sites-in-toronto",
+            "type": "normal"
+        }
+
+    ]
+}
+
