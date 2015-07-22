@@ -24,25 +24,11 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	<div class="bss-slides demo1">
 
 		<figure>
-			<img src="/images/slideshow-2/_1020083.RW2.jpg" width="100%">
+			<img src="/images/slideshow-1/_1050928.RW2.jpg" width="100%">
 			<figcaption>Sunrise in Eastern Colorado</figcaption>
 		</figure>
 
-		<figure>
-			<img src="/images/slideshow-2/_1020089.jpg" width="100%">
-			<figcaption>Sunrise in Eastern Colorado</figcaption>
-		</figure>
-
-		<figure>
-			<img src="/images/slideshow-2/_1020103.jpg" width="100%">
-			<figcaption>Sunrise in Eastern Colorado</figcaption>
-		</figure>
-
-		<figure>
-			<img src="/images/slideshow-2/_1020107.jpg" width="100%">
-			<figcaption>Sunrise in Eastern Colorado</figcaption>
-		</figure>
-
+		
 	</div>
 
 	<script>
@@ -51,7 +37,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		        speed: 3500, 
 		        pauseOnHover: true
 		    },
-		    fullScreen: false, 
+		    fullScreen: true, 
 		    swipe: true
 		};
 		makeBSS('.demo1', opts);
