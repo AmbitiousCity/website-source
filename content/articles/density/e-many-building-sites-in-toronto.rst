@@ -37,7 +37,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 		        speed: 3500, 
 		        pauseOnHover: true
 		    },
-		    fullScreen: true, 
+		    fullScreen: false, 
 		    swipe: true
 		};
 		makeBSS('.demo1', opts);
