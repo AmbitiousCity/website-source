@@ -24,7 +24,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	<div class="bss-slides demo1">
 
 		<figure>
-			<img src="/images/slideshow-1/_1050928.RW2.jpg" width="100%">
+			<img src="/images/slideshow-1/1050928.RW2.jpg" width="100%">
 			<figcaption>Sunrise in Eastern Colorado</figcaption>
 		</figure>
 
