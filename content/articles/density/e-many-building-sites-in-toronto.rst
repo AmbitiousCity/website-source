@@ -1,9 +1,9 @@
-Many buildings sites in Toronto
+Many buildings sites in Toronto 1
 ====================================================
 
 :slug: e-many-building-sites-in-toronto
-:summary: Many buildings sites in Toronto
-:category: evidence
+:summary: Many buildings sites in Toronto 1
+:category: Observation
 :subcategory:
 :tags: Density
 :summary: "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt"
