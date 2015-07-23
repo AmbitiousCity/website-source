@@ -14,9 +14,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 .. raw:: html
 
-	<!DOCTYPE html>
-	<meta charset="utf-8">
-
 		<img src="/images/slideshow-1/_1050928.RW2.jpg" width="100%">
 
 

@@ -3,7 +3,7 @@ Why are planners so concerned with urban density?
 
 :slug: q-why-are-planners-so-concerned-with-urban-density
 :summary: Why are planners so concerned with urban density?
-:category: question
+:category: Question
 :subcategory:
 :tags: Density
 :summary: "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciun

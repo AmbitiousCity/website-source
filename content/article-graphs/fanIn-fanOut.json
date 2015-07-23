@@ -5,7 +5,7 @@
             "title": "Many building sites in Toronto",
             "slug": "e-many-building-sites-in-toronto",
             "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
-            "category": "evidence",
+            "category": "Observation",
             "subcategory": "",
             "tags": "startNode",
             "hasArticle": "true"
@@ -15,7 +15,7 @@
             "title": "John Lorinc book",
             "slug": "s-john-lorinc-book",
             "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
-            "category": "source",
+            "category": "Source",
             "subcategory": "",
             "tags": "",
             "hasArticle": "false"
@@ -25,7 +25,7 @@
             "title": "Why does Toronto have such an extended building boom?",
             "slug": "q-why-does-toronto-have-such-an-extended-building-boom",
             "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
-            "category": "question",
+            "category": "Question",
             "subcategory": "",
             "tags": "",
             "hasArticle": "false"
@@ -35,7 +35,7 @@
             "title": "Building to invest in a safe haven",
             "slug": "h-building-to-invest-in-a-safe-haven",
             "summary": "Building to create a safe haven",
-            "category": "hypothesis",
+            "category": "Hypothesis",
             "subcategory": "",
             "tags": "",
             "hasArticle": "false"
@@ -45,7 +45,7 @@
             "title": "Building to raise a family",
             "slug": "h-building-to-raise-a-family",
             "summary": "Building to create a safe haven",
-            "category": "hypothesis",
+            "category": "Hypothesis",
             "subcategory": "",
             "tags": "",
             "hasArticle": "false"
