@@ -16,12 +16,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	:figwidth: 100%
 	:width: 350px
 
-
-
-.. .. raw:: html
-
-.. 		<img src="/images/slideshow-1/_1050977.jpg" width="100%">
-
+	Caption for 977.jpg
 
 
 		
