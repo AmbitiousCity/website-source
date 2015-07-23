@@ -157,7 +157,7 @@ d3.json(graphPathA, function(error, graph) {
         .append("svg:a")
         .attr("xlink:href", function(d) {
             if (d.hasArticle == "true")
-                return "/articles/" + d.category + "/" + d.slug + "/";
+                return "/articles/" + d.category.toLowerCase() + "/" + d.slug + "/";
             else
                 return null;
         })
