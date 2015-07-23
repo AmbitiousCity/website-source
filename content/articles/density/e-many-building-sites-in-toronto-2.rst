@@ -17,10 +17,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	<!DOCTYPE html>
 	<meta charset="utf-8">
 
-	<figure>
 		<img src="/images/slideshow-1/_1050928.RW2.jpg" width="100%">
-		<figcaption>Sunrise in Eastern Colorado</figcaption>
-	</figure>
+
+
 
 		
 
