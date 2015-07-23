@@ -28,6 +28,12 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 			<figcaption>Sunrise in Eastern Colorado</figcaption>
 		</figure>
 
+		<figure>
+			<img src="/images/slideshow-1/1050977.jpg" width="100%">
+			<figcaption>Sunrise in Eastern Colorado</figcaption>
+		</figure>
+
+
 		
 	</div>
 
