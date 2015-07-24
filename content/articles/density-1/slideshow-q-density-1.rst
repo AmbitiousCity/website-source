@@ -50,7 +50,7 @@
 		</figure>
 
 		<figure>
-			<img src="/images/slideshow-q-density-1/5-1080843.jpg" width="100%">
+			<img src="/images/slideshow-q-density-1/5-1080843.JPG" width="100%">
 			<figcaption>Vibrant, yet relatively low density traditional streetscape, Toronto, 2013</figcaption>
 		</figure>
 
