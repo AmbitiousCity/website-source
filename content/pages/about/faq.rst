@@ -4,6 +4,7 @@ Frequently asked questions
 :slug: faq
 :summary: Frequently asked questions
 
+
 ------
 
 Where did this idea come from?

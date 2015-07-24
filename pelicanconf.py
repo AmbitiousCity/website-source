@@ -9,6 +9,7 @@ TIMEZONE = 'America/Toronto'
 DEFAULT_LANG = u'en'
 #GITHUB_URL = 'http://github.com/MichaelCumming/'
 PDF_GENERATOR = False
+GOOGLE_ANALYTICS = 'UA-44332815-1'
 #for development
 LOAD_CONTENT_CACHE = False
 # custom page generated with a jinja2 template
@@ -42,7 +43,7 @@ DISPLAY_PAGES_ON_MENU = False
 HIDE_SIDEBAR = True
 
 MENUITEMS = [
-	('Questions', '/category/question/'),
+	('Urban Design Questions', '/category/question/'),
 	# ('Ideas', '/tag/idea.html'),
 	('About', '/pages/about/')
 ]

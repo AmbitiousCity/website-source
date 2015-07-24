@@ -12,6 +12,37 @@
         },
 
         {
+            "title": "Slideshow on density",
+            "slug": "o-slideshow-on-density",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "Observation",
+            "subcategory": "",
+            "tags": "startNode",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "John Lorinc book",
+            "slug": "s-john-lorinc-book",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "Source",
+            "subcategory": "",
+            "tags": "",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "Triumph of the City book",
+            "slug": "s-triumph-of-the-city-book",
+            "summary": "Sed ut perspiclquasi archoluptas ni dolores eos qui ratione voluptatem sequi nesciunt",
+            "category": "Source",
+            "subcategory": "",
+            "tags": "",
+            "hasArticle": "false"
+        }
+
+
+        {
             "title": "What types of urban densities are there?",
             "slug": "q-what-types-of-urban-densities-are-there",
             "summary": "There a few types of density. It is useful to review the most common formulas",
@@ -73,20 +104,37 @@
 
 
 
-
     ],
 
     "links": [
 
         {
-            "source": "q-why-are-planners-so-concerned-with-urban-density",
-            "target": "q-what-does-urban-density-mean",
+            "source": "o-slideshow-on-density",
+            "target": "q-why-are-planners-so-concerned-with-urban-density",
             "type": "normal"
         },
 
         {
-            "source": "q-what-does-urban-density-mean",
-            "target": "q-what-types-of-urban-densities-are-there",
+            "source": "s-john-lorinc-book",
+            "target": "q-why-are-planners-so-concerned-with-urban-density",
+            "type": "normal"
+        },
+
+        {
+            "source": "s-triumph-of-the-city-book",
+            "target": "q-why-are-planners-so-concerned-with-urban-density",
+            "type": "normal"
+        },
+
+        {
+            "source": "q-why-does-toronto-have-such-an-extended-building-boom",
+            "target": "h-building-to-invest-in-a-safe-haven",
+            "type": "normal"
+        },
+
+        {
+            "source": "q-why-does-toronto-have-such-an-extended-building-boom",
+            "target": "h-building-to-raise-a-family",
             "type": "normal"
         }
 

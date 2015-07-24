@@ -7,20 +7,20 @@ About Ambitious City
 :tags: 
 
 
-Ambitious City is an experimental site for urban design. Our goal is to identify, categorize and refine good questions about urban design. We believe that asking good questions is an important step towards innovative design processes. 
+Ambitious City is an experimental site for urban design. Our goal is to identify, categorize and refine good questions about urban design. We believe that asking good questions is an important step towards innovative design processes.
 
 ------
 
 
-`About questions <{filename} about-questions/about-questions.rst>`_
+`Definition of an Ambitious City <{filename} about-cities/ac-definition.rst>`_
 
-`About cities <{filename} about-cities/about-cities.rst>`_
+`About asking questions on urban design <{filename} about-questions/about-questions.rst>`_
 
 `About the principal of Ambitious City <{filename} about-mc/about-mc.rst>`_
 
-`FAQ <{filename} faq.rst>`_
+.. `FAQ <{filename} faq.rst>`_
 
-`Test box <{filename} testBox.rst>`_
+.. `Test box <{filename} testBox.rst>`_
 
 |
 

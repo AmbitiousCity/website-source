@@ -16,7 +16,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 	:figwidth: 100%
 	:width: 800px
 
-	Public Pool, Hamilton, ON
+	Put caption here
+
 
 
 		
