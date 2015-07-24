@@ -1,0 +1,109 @@
+{
+    "nodes": [
+
+        {
+            "title": "Is building high the only way to achieve density?",
+            "slug": "q-is-building-high-the-only-way-to-achieve-density",
+            "summary": "Many cities increase their density by building up. Are there any alternatives?",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "true"
+        },
+
+        {
+            "title": "Slideshow: densification and highrises",
+            "slug": "ss-densification-and-highrises",
+            "summary": "Density is increasing in many growing cities of the world. Building high-rises is often how it is achieved.",
+            "category": "Observation",
+            "subcategory": "",
+            "tags": "startNode",
+            "hasArticle": "true"
+        },
+
+        {
+            "title": "Lorinc-The new city",
+            "slug": "s-lorinc-the-new-city",
+            "summary": "Lorinc, J. The new city: How the crisis in Canada’s urban centres is reshaping the nation. Penguin Books Canada, 2006.",
+            "category": "Source",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "Glaeser, Triumph of the city",
+            "slug": "s-glaeser-triumph-of-the-city",
+            "summary": "Glaeser, E. Triumph of the city: How our greatest invention makes us richer, smarter, greener, healthier and happier. Pan Macmillan, 2011.",
+            "category": "Source",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "Is density at odds with architectural heritage?",
+            "slug": "q-is-density-at-odds-with-architectural-heritage",
+            "summary": "It is possible to increase density as well as preserve heritage?",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "Should lower density buildings always be replaced by higher density ones?",
+            "slug": "q-should-lower-density-buildings-always-be-replaced-by-higher-density-ones",
+            "summary": "Is Manhattanization a rule for all cities experiencing growth?",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "Will sprawl development also be eventually transformed into high-rises?",
+            "slug": "q-will-sprawl-development-also-be-eventually-transformed-into-high-rises",
+            "summary": "TBC",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "What are the different kinds of density?",
+            "slug": "q-what-are-the-different-kinds-of-density",
+            "summary": "There a few types of density metrics. It is useful to review the most common formulas",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "false"
+        }
+
+
+
+    ],
+
+    "links": [
+
+        {
+            "source": "ss-densification-and-highrises",
+            "target": "q-is-building-high-the-only-way-to-achieve-density",
+            "type": "normal"
+        },
+
+        {
+            "source": "s-lorinc-the-new-city",
+            "target": "q-is-building-high-the-only-way-to-achieve-density",
+            "type": "normal"
+        },
+
+        {
+            "source": "s-glaeser-triumph-of-the-city",
+            "target": "q-is-building-high-the-only-way-to-achieve-density",
+            "type": "normal"
+        }
+
+    ]
+}

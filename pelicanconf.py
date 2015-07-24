@@ -44,6 +44,7 @@ HIDE_SIDEBAR = True
 
 MENUITEMS = [
 	('Urban Design Questions', '/category/question/'),
+    ('Observations', '/category/observation/'),
 	# ('Ideas', '/tag/idea.html'),
 	('About', '/pages/about/')
 ]
