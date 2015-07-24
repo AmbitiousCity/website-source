@@ -1,5 +1,5 @@
 :title: Slideshow: densification in Toronto
-:slug: o-slideshow:-densification-in-toronto
+:slug: o-slideshow-densification-in-toronto
 :summary: Slideshow: densification in Toronto
 :category: Observation
 :subcategory:
