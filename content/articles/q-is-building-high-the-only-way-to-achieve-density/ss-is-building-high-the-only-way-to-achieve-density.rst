@@ -2,7 +2,7 @@ Slideshow: densification and highrises
 ==================================================
 
 
-:slug: ss-densification-and-highrises
+:slug: ss-is-building-high-the-only-way-to-achieve-density
 :summary: Slideshow: densification and highrises
 :category: Observation
 :subcategory:
