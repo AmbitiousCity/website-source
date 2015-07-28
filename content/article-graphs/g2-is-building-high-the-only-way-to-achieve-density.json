@@ -40,7 +40,47 @@
             "tags": "Density",
             "hasArticle": "false"
         },
-        
+
+        {
+            "title": "Is density at odds with architectural heritage?",
+            "slug": "q-is-density-at-odds-with-architectural-heritage",
+            "summary": "It is possible to increase density as well as preserve heritage?",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "Should lower density buildings always be replaced by higher density ones?",
+            "slug": "q-should-lower-density-buildings-always-be-replaced-by-higher-density-ones",
+            "summary": "Is Manhattanization a rule for all cities experiencing growth?",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "Will sprawl development also be eventually transformed into high-rises?",
+            "slug": "q-will-sprawl-development-also-be-eventually-transformed-into-high-rises",
+            "summary": "TBC",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "What are the different kinds of density?",
+            "slug": "q-what-are-the-different-kinds-of-density",
+            "summary": "There a few types of density metrics. It is useful to review the most common formulas",
+            "category": "Question",
+            "subcategory": "",
+            "tags": "Density",
+            "hasArticle": "false"
+        },
+
         {
             "title": "Build block perimeter buildings",
             "slug": "build-block-perimeter-buildings",

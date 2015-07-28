@@ -48,6 +48,11 @@ MENUITEMS = [
 	# ('Ideas', '/tag/idea.html'),
 	('About', '/pages/about/')
 ]
+
+# if you only want to generate the page you are working on (speeds things up)
+# WRITE_SELECTED = ['output/blog/2015/01/01/path-to-blog-post/index.html',
+#                   'output/blog/pages/stuff/index.html',
+#                  ]
     
 ARTICLE_URL = 'articles/{category}/{slug}/'
 ARTICLE_SAVE_AS = 'articles/{category}/{slug}/index.html'
