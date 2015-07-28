@@ -54,7 +54,17 @@
         {
             "title": "Build underground",
             "slug": "build-underground",
-            "summary": "achieve density by building deeper rather than higher",
+            "summary": "Achieve density by building deeper rather than higher",
+            "category": "Option",
+            "subcategory": "",
+            "tags": "",
+            "hasArticle": "false"
+        },
+
+          {
+            "title": "Minimize vacant or underutilized space",
+            "slug": "minimize-vacant-or-underutilized-space",
+            "summary": "If spaces are empty of people then population density is low",
             "category": "Option",
             "subcategory": "",
             "tags": "",
@@ -98,6 +108,13 @@
         {
             "source": "q-is-building-high-the-only-way-to-achieve-density",
             "target": "build-underground",
+            "function": "suggests",
+            "type": "normal"
+        },
+
+         {
+            "source": "q-is-building-high-the-only-way-to-achieve-density",
+            "target": "minimize-vacant-or-underutilized-space",
             "function": "suggests",
             "type": "normal"
         }
