@@ -1,0 +1,67 @@
+{
+    "nodes": [
+
+        {
+            "title": "Input Node",
+            "slug": "input-node",
+            "summary": "A node that provides information that informs Questions",
+            "category": "About",
+            "subcategory": "",
+            "tags": "",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "Question Node",
+            "slug": "model-1",
+            "summary": "A node that holds Questions",
+            "category": "About",
+            "subcategory": "",
+            "tags": "",
+            "hasArticle": "true"
+        },
+
+        {
+            "title": "Output Node",
+            "slug": "output-node",
+            "summary": "A node that holds products resulting from asking Questions",
+            "category": "About",
+            "subcategory": "",
+            "tags": "",
+            "hasArticle": "false"
+        }
+
+    ],
+
+    "links": [
+
+        {
+            "source": "input-node",
+            "target": "question-node",
+            "type": "normal",
+            "function": "a - informs"
+        },
+
+        {
+            "source": "input-node",
+            "target": "output-node",
+            "type": "normal",
+            "function": "b - informs"
+        },
+
+        {
+            "source": "question-node",
+            "target": "output-node",
+            "type": "normal",
+            "function": "c - suggests outputs (such as Options)"
+        },
+
+        {
+            "source": "question-node",
+            "target": "output-node",
+            "type": "normal",
+            "function": "d - inspires further questions"
+        }
+
+    ]
+}

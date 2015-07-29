@@ -1,0 +1,67 @@
+{
+    "nodes": [
+
+       {
+            "title": "Input Node",
+            "slug": "input-node",
+            "summary": "A node that provides information that informs Questions such as Sources and Observations",
+            "category": "About",
+            "subcategory": "",
+            "tags": "",
+            "hasArticle": "false"
+        },
+
+        {
+            "title": "Question Node",
+            "slug": "model-1",
+            "summary": "A node that holds Questions",
+            "category": "About",
+            "subcategory": "",
+            "tags": "",
+            "hasArticle": "true"
+        },
+
+        {
+            "title": "Output Node",
+            "slug": "output-node",
+            "summary": "A node that holds products resulting from asking Questions such as Options, Hypotheses and Theories",
+            "category": "About",
+            "subcategory": "",
+            "tags": "",
+            "hasArticle": "false"
+        }
+
+    ],
+
+    "links": [
+
+        {
+            "source": "input-node",
+            "target": "model-1",
+            "type": "normal",
+            "function": "a - informs"
+        },
+
+        {
+            "source": "input-node",
+            "target": "output-node",
+            "type": "normal",
+            "function": "b - informs"
+        },
+
+        {
+            "source": "model-1",
+            "target": "output-node",
+            "type": "normal",
+            "function": "c - suggests outputs (such as Options)"
+        },
+
+        {
+            "source": "output-node",
+            "target": "model-1",
+            "type": "normal",
+            "function": "d - inspires further questions"
+        }
+
+    ]
+}

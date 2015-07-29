@@ -18,7 +18,7 @@ data QuestionNode =
 
 --a Node that points from a Question
 data OutputNode =
-	Option --there'll be more types later
+	Option | Hypothesis | Theory --there'll be more types later
 	deriving (Show, Enum, Eq)
 
 --not sure what the link types are yet
@@ -26,14 +26,25 @@ data LinkType =
 	Normal | Other
 	deriving (Show, Enum, Eq)
 
+--instances of permissible links
+data Link = 
+	Link InputNode QuestionNode --a: basic; eg. Source "informs" Question
+	Link InputNode OutputNode --b: basic; eg. Source "informs" Option
+	Link QuestionNode OutputNode --c: basic; eg. Question "suggests" Option
+	Link OutputNode QuestionNode --d: cycles back; eg. Option "suggests [another]" Question
+	--not permitted
+	--Link QuestionNode InputNode
+	--Link OutputNode InputNode
+
+
 --edges, or links between nodes
-data Link = Link { 
-	source :: Node, 
-	target :: Node,
-	linkMeaning :: String,
-	linkType :: LinkType
-	} 
-	deriving Show
+--data Link = Link { 
+--	source :: Node, 
+--	target :: Node,
+--	linkMeaning :: String,
+--	linkType :: LinkType
+--	} 
+--	deriving Show
 
 --node in a d3 json graph
 data Node = Node {
