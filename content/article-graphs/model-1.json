@@ -5,7 +5,7 @@
             "title": "Input Node",
             "slug": "input-node",
             "summary": "A node that provides information that informs Questions such as Sources and Observations",
-            "category": "About",
+            "category": "InputNode",
             "subcategory": "",
             "tags": "",
             "hasArticle": "false"
@@ -25,7 +25,7 @@
             "title": "Output Node",
             "slug": "output-node",
             "summary": "A node that holds products resulting from asking Questions such as Options, Hypotheses and Theories",
-            "category": "About",
+            "category": "OutputNode",
             "subcategory": "",
             "tags": "",
             "hasArticle": "false"

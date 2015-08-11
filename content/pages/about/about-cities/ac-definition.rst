@@ -7,7 +7,7 @@ What is an Ambitious City?
 
 .. raw:: html
 
-	<div class="boxA", style="background: #ccc">
+	<div class="boxSmall", style="background: #ccc">
 		Designable: imagines a future that can be designed
 	</div>
 
@@ -18,7 +18,7 @@ What is an Ambitious City?
 
 .. raw:: html
 
-	<div class="boxA", style="background: orange">
+	<div class="boxSmall", style="background: orange">
 		Inclusive: includes all its residents
 	</div>
 
@@ -29,7 +29,7 @@ What is an Ambitious City?
 
 .. raw:: html
 
-	<div class="boxA", style="background: #ccc">
+	<div class="boxSmall", style="background: #ccc">
 		Grounded: sets rational yet creative goals
 	</div>
 

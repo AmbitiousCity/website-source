@@ -8,11 +8,24 @@ body {
     margin: 3px 0.25px 0px 0px;
 }*/
 
-.boxA {
-    color: black;
+.boxSmall {
+    color: #444;
     background: #eee;
-    width: 75%;
+    width: 60%;
     font-size: 16px;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 15px 0px 15px 0px;
+}
+
+.boxLarge {
+    color: #444;
+    background: #eee;
+    width: 60%;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: italic;
     padding: 10px 10px;
     border-radius: 5px;
     margin: 15px 0px 15px 0px;
