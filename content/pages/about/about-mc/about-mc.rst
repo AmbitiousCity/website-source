@@ -1,4 +1,4 @@
-Michael Cumming, BArch Ph.D 
+Michael Cumming
 ==================================================
 
 :slug: about-mc

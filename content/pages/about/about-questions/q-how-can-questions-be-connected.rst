@@ -1,8 +1,9 @@
 About connecting questions together
 ==================================================
 
-:slug: connecting-questions
-:summary: Connecting questions together
+:slug: q-how-can-questions-be-connected
+:summary: How can questions be connected?
+:category: Question
 
 Questions on this site can be about most anything to do with urban design. This site does not attempt to put all its questions into an order that makes sense at first. It might be that experience must be gained writing many questions before an order is discovered that makes sense. But here are some ideas that might be useful in ordering questions:
 

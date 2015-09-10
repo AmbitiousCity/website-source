@@ -45,9 +45,10 @@ HIDE_SIDEBAR = True
 
 MENUITEMS = [
 	('Urban Design Questions', '/category/question/'),
-    ('Observations', '/category/observation/'),
+    # ('Observations', '/category/observation/'),
 	# ('Ideas', '/tag/idea.html'),
-	('About', '/pages/about/')
+	('About', '/pages/about/'),
+    ('Subscribe', 'http://eepurl.com/xYI8j')
 ]
 
 # if you only want to generate the page you are working on (speeds things up)
@@ -97,7 +98,11 @@ SITEMAP = {
 # RELATIVE_URLS = False
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_DOMAIN = 'http://ambitiouscity.com'
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ALL_RSS = 'feeds/all.rss.xml'
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None

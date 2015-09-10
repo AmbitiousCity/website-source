@@ -20,12 +20,16 @@ body {
 }
 
 .boxLarge {
-    color: #444;
+    /*color: #555;*/
+    color: orange;
     background: #eee;
     width: 60%;
-    font-size: 24px;
+    /*font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;*/
+    font-size: 26px;
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
+    text-align: center;
+    line-height: 110%;
     padding: 10px 10px;
     border-radius: 5px;
     margin: 15px 0px 15px 0px;
