@@ -100,7 +100,7 @@ SITEMAP = {
 # Feed generation is usually not desired when developing
 FEED_DOMAIN = 'http://ambitiouscity.github.io'
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-FEED_ALL_RSS = 'feeds/all.rss.xml'
+FEED_ALL_RSS = None #doesn't validate correctly like the Atom one
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 CATEGORY_FEED_ATOM = None
