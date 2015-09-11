@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 # Note: this setting is feed-unfriendly - for testing only
 SITEURL = ''
+# SITEURL = 'https://ambitiouscity.com'
 
 ###################################
 #v v v COMMON TO BOTH CONFIG FILES
