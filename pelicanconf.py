@@ -118,6 +118,9 @@ LINKS = (
 ###################################
 #v v v FOR LOCAL TESTING
 
+#Output folder is shared by both relative and absolute urls
+DELETE_OUTPUT_DIRECTORY = True #deletes folder before generating all new files - use with caution
+
 # SITEURL = ''
 # GOOGLE_ANALYTICS = 'UA-44332815-1'
 

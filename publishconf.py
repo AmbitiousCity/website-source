@@ -10,6 +10,13 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
+SITEURL = 'http://ambitiouscity.com' #does this work?
+# SITEURL = 'https://ambitiouscity.github.io' #this works
+#a valid feed FYI: http://ambitiouscity.github.io/feeds/all.atom.xml
+FEED_DOMAIN = SITEURL
+GOOGLE_ANALYTICS = 'UA-44332815-1'
+#DISQUS_SITENAME = ""
+
 ###################################
 #v v v PUT COMMON STUFF HERE
 
@@ -121,14 +128,8 @@ LINKS = (
 ###################################
 #v v v FOR PUBLISHING (feed-friendly)
 
-# SITEURL = 'http://ambitiouscity.com' #does this work?
-SITEURL = 'http://ambitiouscity.github.io' #this works
-#a valid feed FYI: http://ambitiouscity.github.io/feeds/all.atom.xml
-FEED_DOMAIN = SITEURL
-RELATIVE_URLS = False
+# RELATIVE_URLS = False
 DELETE_OUTPUT_DIRECTORY = True #deletes folder before generating all new files - use with caution
-GOOGLE_ANALYTICS = 'UA-44332815-1'
-#DISQUS_SITENAME = ""
 LOAD_CONTENT_CACHE = False # avoids caching of content
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
