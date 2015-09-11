@@ -10,8 +10,8 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://ambitiouscity.com' #does this work?
-# SITEURL = 'https://ambitiouscity.github.io' #this works
+# SITEURL = 'http://ambitiouscity.com' #does this work?
+SITEURL = 'https://ambitiouscity.github.io' #this works for feeds
 #a valid feed FYI: http://ambitiouscity.github.io/feeds/all.atom.xml
 FEED_DOMAIN = SITEURL
 GOOGLE_ANALYTICS = 'UA-44332815-1'
