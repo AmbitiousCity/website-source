@@ -10,8 +10,8 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-# SITEURL = 'https://ambitiouscity.com' #doesn't work: css missing
-SITEURL = '' #doesn't work: css too small; feeds don't work
+SITEURL = 'http://ambitiouscity.com' #doesn't work: css missing
+# SITEURL = '' #doesn't work: css too small; feeds don't work
 # SITEURL = 'https://ambitiouscity.github.io' #doesn't work: css too small; feeds ok
 
 FEED_DOMAIN = 'https://ambitiouscity.github.io'
@@ -133,7 +133,7 @@ LINKS = (
 #v v v FOR PUBLISHING (feed-friendly)
 
 DELETE_OUTPUT_DIRECTORY = True #deletes folder before generating all new files - use with caution
-# RELATIVE_URLS = False
+RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
