@@ -130,7 +130,7 @@ LINKS = (
 
 # RELATIVE_URLS = False
 DELETE_OUTPUT_DIRECTORY = True #deletes folder before generating all new files - use with caution
-LOAD_CONTENT_CACHE = False # avoids caching of content
+# LOAD_CONTENT_CACHE = False # avoids caching of content
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
