@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-# Note: this setting is feed-unfriendly
+# Note: this setting is feed-unfriendly - for testing only
 SITEURL = ''
 
 ###################################
