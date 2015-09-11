@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Ambitious City'
 SITENAME = u'Ambitious City'
-SITEURL = ''
+SITEURL = 'http://ambitiouscity.github.io'
 TIMEZONE = 'America/Toronto'
 DEFAULT_LANG = u'en'
 #GITHUB_URL = 'http://github.com/MichaelCumming/'
@@ -98,7 +98,7 @@ SITEMAP = {
 # RELATIVE_URLS = False
 
 # Feed generation is usually not desired when developing
-FEED_DOMAIN = 'http://ambitiouscity.com'
+FEED_DOMAIN = 'http://ambitiouscity.github.io'
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 FEED_ALL_RSS = 'feeds/all.rss.xml'
 CATEGORY_FEED_ATOM = None
