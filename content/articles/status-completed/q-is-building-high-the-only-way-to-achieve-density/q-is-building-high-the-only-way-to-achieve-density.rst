@@ -8,15 +8,15 @@ Is building high the only way to achieve density?
 :subcategory:
 :tags: Density
 :summary: Density has advantages for cities including compactness and reduced services costs. Usually, cities address density concerns is by building high. But is this the only, or the best way to create density?
-
-	.. figure:: /images/_1080970.JPG
+	
+	.. figure:: /images/1080970.JPG
 		:alt: photo by Michael Cumming
 		:figwidth: 100%
 		:width: 200px
 
 |
 
-.. figure:: /images/_1080970.JPG
+.. figure:: /images/1080970.JPG
 	:alt: photo by Michael Cumming
 	:figwidth: 100%
 	:width: 400px

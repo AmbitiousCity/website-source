@@ -2,24 +2,29 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+# Note: this setting is feed-unfriendly
+SITEURL = ''
+
+###################################
+#v v v COMMON TO BOTH CONFIG FILES
+
 AUTHOR = u'Ambitious City'
 SITENAME = u'Ambitious City'
-# SITEURL = 'http://ambitiouscity.github.io'
-SITEURL = ''
+
 TIMEZONE = 'America/Toronto'
 DEFAULT_LANG = u'en'
 #GITHUB_URL = 'http://github.com/MichaelCumming/'
 PDF_GENERATOR = False
-GOOGLE_ANALYTICS = 'UA-44332815-1'
+PATH = 'content'
 
-#for development
-LOAD_CONTENT_CACHE = False
+#speed things up?
+CACHE_CONTENT = True
+LOAD_CONTENT_CACHE = True
+
 # custom page generated with a jinja2 template
 #TEMPLATE_PAGES = {'pages/jinja2_template.html': 'jinja2_template.html'}
 #TAGS_SAVE_AS = ''
 #TAG_SAVE_AS = ''
-
-PATH = 'content'
 
 #dynamic content = 'articles'
 ARTICLE_PATHS = ['articles']   #questions', 'articles/ideas', 'articles/sources'
@@ -94,24 +99,6 @@ SITEMAP = {
     }
 }
 
-# DEFAULT_PAGINATION = False
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = False
-
-# Feed generation is usually not desired when developing
-# FEED_DOMAIN = 'http://ambitiouscity.github.io'
-# FEED_ALL_ATOM = 'feeds/all.atom.xml'
-FEED_DOMAIN = ''
-FEED_ALL_ATOM = None
-FEED_ALL_RSS = None #doesn't validate correctly like the Atom one
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-LOAD_CONTENT_CACHE = False # avoids caching of content
-
 # Social widget
 SOCIAL = (
 # ('Ambitious City Google+ Images', '#'),
@@ -124,3 +111,35 @@ LINKS = (
 # ('DFI @ OCADU', 'http://www.ocadu.ca/academics/faculty-of-las-and-sis/digital-futures-initiative.htm'),
 # ('Rhizome', 'http://rhizome.org/'),
 )
+
+#^ ^ ^ COMMON TO BOTH CONFIG FILES
+###################################
+
+###################################
+#v v v FOR LOCAL TESTING
+
+# SITEURL = ''
+# GOOGLE_ANALYTICS = 'UA-44332815-1'
+
+# Feed generation is usually not desired when developing
+# FEED_DOMAIN = 'http://ambitiouscity.github.io' #this works
+# FEED_ALL_ATOM = 'feeds/all.atom.xml' #this works
+# FEED_DOMAIN = ''
+FEED_ALL_ATOM = None
+FEED_ALL_RSS = None #doesn't validate correctly like the Atom one
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None #don't use RSS, use Atom
+# LOAD_CONTENT_CACHE = False # avoids caching of content
+
+# DEFAULT_PAGINATION = False
+# Uncomment following line if you want document-relative URLs when developing
+# RELATIVE_URLS = False
+
+#^ ^ ^ FOR PUBLISHING
+###################################
+
+
