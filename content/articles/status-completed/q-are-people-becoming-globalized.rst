@@ -9,14 +9,14 @@ Are people becoming globalized?
 :summary: Does the Syrian refugee crisis create a new pattern for the globalization of people?
 
 	.. figure:: /images/20551654978_675152d0d7_o.jpg
-		:alt: Michael Cumming
+		:alt: photo by Oğuzhan Ali
 		:figwidth: 100%
 		:width: 150px
 
 |
 
 .. figure:: /images/20551654978_675152d0d7_o.jpg
-	:alt: Michael Cumming
+	:alt: photo by Oğuzhan Ali
 	:figwidth: 100%
 	:width: 400px
 

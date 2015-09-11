@@ -8,14 +8,14 @@ Is laneway housing a sensible approach for increasing urban density?
 :tags: Density
 :summary: Would laneway construction be a creative and ultimately beneficial disruption of the city or an inefficient use of scarce municipal resources?
 
-	.. figure:: /images/_1120853.jpg
+	.. figure:: /images/1120853.jpg
 		:alt: photo by Michael Cumming
 		:figwidth: 100%
 		:width: 200px
 
 |
 
-.. figure:: /images/_1120853.jpg
+.. figure:: /images/1120853.jpg
 	:alt: photo by Michael Cumming
 	:figwidth: 100%
 	:width: 400px
