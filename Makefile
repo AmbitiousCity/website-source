@@ -34,10 +34,10 @@ ifeq ($(DEBUG), 1)
 endif
 
 #-----------------------------------------------------------#
-html:
+testHtml:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
-publish:
+realHtml:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 clean:
