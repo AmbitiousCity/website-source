@@ -40,6 +40,9 @@ testOutput:
 realOutput:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
+	#copies the required CNAME file to the output folder
+	cp CNAME output
+
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
