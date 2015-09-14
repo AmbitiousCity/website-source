@@ -34,10 +34,10 @@ ifeq ($(DEBUG), 1)
 endif
 
 #-----------------------------------------------------------#
-testHtml:
+testOutput:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
-realHtml:
+realOutput:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 clean:
@@ -55,9 +55,9 @@ pushSource:
 	#pushes the website source to GitHub
 	git push origin master:master
 
-pushHtml:
+pushOutput:
 	#moves content of the output directory to the 'gh-pages' branch
-	ghp-import -m "Published html output to gh-pages branch" -b gh-pages output
+	ghp-import -m "Published html output" -b gh-pages output
 
 	#git push <remote-name> <local-branch-name>:<remote-branch-name>
 	git push -f https://github.com/AmbitiousCity/ambitiouscity.github.io.git gh-pages:master
