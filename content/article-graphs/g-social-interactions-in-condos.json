@@ -1,0 +1,83 @@
+{
+    "nodes": [
+
+    {
+        "title": "Condos",
+        "slug": "condos",
+        "summary": "",
+        "category": "Thing",
+        "subcategory": "",
+        "tags": "",
+        "hasArticle": "false"
+    },
+
+    {
+        "title": "Have lobbies",
+        "slug": "have-lobbies",
+        "summary": "",
+        "category": "Has",
+        "subcategory": "",
+        "tags": "",
+        "hasArticle": "false"
+    },
+
+    {
+        "title": "Most units lack direct ground access",
+        "slug": "most-units-lack-direct-ground-access",
+        "summary": "",
+        "category": "Has",
+        "subcategory": "",
+        "tags": "",
+        "hasArticle": "false"
+    },
+
+    {
+        "title": "May have roof decks",
+        "slug": "may-have-roof-decks",
+        "summary": "",
+        "category": "Has",
+        "subcategory": "",
+        "tags": "",
+        "hasArticle": "false"
+    },
+
+    {
+        "title": "Provide few opportunities to interact with your neighbours",
+        "slug": "provide-few-interactions",
+        "summary": "",
+        "category": "Has",
+        "subcategory": "",
+        "tags": "",
+        "hasArticle": "false"
+    }
+
+    ],
+
+    "links": [
+    {
+        "source": "condos",
+        "target": "have-lobbies",
+        "type": "normal"
+    },
+
+    {
+        "source": "condos",
+        "target": "most-units-lack-direct-ground-access",
+        "type": "normal"
+    },
+
+    {
+        "source": "condos",
+        "target": "may-have-roof-decks",
+        "type": "normal"
+    },
+
+    {
+        "source": "condos",
+        "target": "provide-few-interactions",
+        "type": "normal"
+    }
+
+
+    ]
+}

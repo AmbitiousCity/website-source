@@ -69,19 +69,7 @@
             "subcategory": "",
             "tags": "",
             "hasArticle": "false"
-        },
-
-        {
-            "title": "Do perimeter buildings make cities seem more congested?",
-            "slug": "do-perimeter-buildings-make-cities-seem-more-congested",
-            "summary": "",
-            "category": "Question",
-            "subcategory": "",
-            "tags": "",
-            "hasArticle": "false"
         }
-
-
 
     ],
 
@@ -126,12 +114,6 @@
             "source": "q-is-building-high-the-only-way-to-achieve-density",
             "target": "minimize-vacant-or-underutilized-space",
             "function": "suggests",
-            "type": "normal"
-        },
-
-        {
-            "source": "build-block-perimeter-buildings",
-            "target": "do-perimeter-buildings-make-cities-seem-more-congested",
             "type": "normal"
         }
 

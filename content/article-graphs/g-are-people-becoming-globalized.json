@@ -1,0 +1,66 @@
+{
+    "nodes": [
+
+    {
+        "title": "Refugees",
+        "slug": "refugees",
+        "summary": "",
+        "category": "Cohort",
+        "subcategory": "",
+        "tags": "",
+        "hasArticle": "false"
+    },
+
+    {
+        "title": "Avoid destruction by migrating",
+        "slug": "avoid-destruction",
+        "summary": "",
+        "category": "Behavior",
+        "subcategory": "",
+        "tags": "",
+        "hasArticle": "false"
+    },
+
+    {
+        "title": "Undertake perilous journeys",
+        "slug": "undertake-perilous-journeys",
+        "summary": "",
+        "category": "Behavior",
+        "subcategory": "",
+        "tags": "",
+        "hasArticle": "false"
+    },
+
+    {
+        "title": "Face great hardships--even at their final destinations",
+        "slug": "face-great-hardships",
+        "summary": "",
+        "category": "Behavior",
+        "subcategory": "",
+        "tags": "",
+        "hasArticle": "false"
+    }
+
+    ],
+
+    "links": [
+    {
+        "source": "refugees",
+        "target": "avoid-destruction",
+        "type": "normal"
+    },
+
+    {
+        "source": "refugees",
+        "target": "undertake-perilous-journeys",
+        "type": "normal"
+    },
+
+    {
+        "source": "refugees",
+        "target": "face-great-hardships",
+        "type": "normal"
+    }
+
+    ]
+}

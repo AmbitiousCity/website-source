@@ -37,6 +37,16 @@ One social aspect of condo buildings that tends to be over-emphasized in condo b
 
 Compare this with the modern open offices that well-funded tech startups often inhabit. These are purposively designed to encourage informal social interaction like that found at water coolers or the new espresso machine. The goal is for the office to become a place to exchange ideas and build group cohesion, which is so important for creative and knowledge-based pursuits. But there doesn't seem to be an equivalent to the water cooler in a condo. No one seems to spend too much time designing interesting social interactions that might take place within them. 
 
+.. raw:: html
+
+	<!DOCTYPE html>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/code/css/graphParts.css">
+	<body><script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+
+	<script src="/code/javascript/graph-d3.js?graphA=g-social-interactions-in-condos.json;thisNode=condos">
+	</script>
+
 
 
 

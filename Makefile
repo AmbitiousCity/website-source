@@ -62,6 +62,7 @@ pushOutput:
 	#moves content of the output directory to the 'gh-pages' branch
 	ghp-import -m "Published html output" -b gh-pages output
 
+	#pushes 'gh-pages' to master branch of ambitiouscity.github.io
 	#git push <remote-name> <local-branch-name>:<remote-branch-name>
 	git push -f https://github.com/AmbitiousCity/ambitiouscity.github.io.git gh-pages:master
 

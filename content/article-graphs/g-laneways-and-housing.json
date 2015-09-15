@@ -1,0 +1,98 @@
+{
+    "nodes": [
+
+    {
+        "title": "Laneway housing",
+        "slug": "laneway-housing",
+        "summary": "",
+        "category": "Thing",
+        "subcategory": "",
+        "tags": "",
+        "hasArticle": "false"
+    },
+
+    {
+        "title": "Can sometimes be really cool",
+        "slug": "can-be-cool",
+        "summary": "",
+        "category": "Is",
+        "subcategory": "",
+        "tags": "",
+        "hasArticle": "false"
+    },
+
+    {
+        "title": "Provides new land on which to build",
+        "slug": "provides-new-land",
+        "summary": "",
+        "category": "Has",
+        "subcategory": "",
+        "tags": "",
+        "hasArticle": "false"
+    },
+
+    {
+        "title": "Are near many existing services",
+        "slug": "are-near-many-existing-services",
+        "summary": "",
+        "category": "Is",
+        "subcategory": "",
+        "tags": "",
+        "hasArticle": "false"
+    },
+
+    {
+        "title": "Are not necessarily near all municipal services",
+        "slug": "far-from-some-services",
+        "summary": "",
+        "category": "Is",
+        "subcategory": "",
+        "tags": "",
+        "hasArticle": "false"
+    },
+    {
+        "title": "May increase short-term costs for cities that allow them",
+        "slug": "may-increase-costs",
+        "summary": "",
+        "category": "Has",
+        "subcategory": "",
+        "tags": "",
+        "hasArticle": "false"
+    }
+
+
+    ],
+
+    "links": [
+    {
+        "source": "laneway-housing",
+        "target": "can-be-cool",
+        "type": "normal"
+    },
+
+    {
+        "source": "laneway-housing",
+        "target": "provides-new-land",
+        "type": "normal"
+    },
+
+    {
+        "source": "laneway-housing",
+        "target": "are-near-many-existing-services",
+        "type": "normal"
+    },
+
+    {
+        "source": "laneway-housing",
+        "target": "far-from-some-services",
+        "type": "normal"
+    },
+
+    {
+        "source": "laneway-housing",
+        "target": "may-increase-costs",
+        "type": "normal"     
+    }
+
+    ]
+}
