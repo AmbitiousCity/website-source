@@ -124,6 +124,7 @@ DELETE_OUTPUT_DIRECTORY = False #if true, deletes folder before generating all n
 
 # SITEURL = ''
 # GOOGLE_ANALYTICS = 'UA-44332815-1'
+DISQUS_SITENAME = "ambitiouscity"
 
 # Feed generation is usually not desired when developing
 # FEED_DOMAIN = 'http://ambitiouscity.github.io' #this works
