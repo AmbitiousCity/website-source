@@ -3,6 +3,10 @@ body {
     font-size: 13px; /*15px;*/
 }
 
+blockquote {
+    font-style: italic;
+}
+
 /*big initial caps: body p:first-letter { 
     font-size: 125%; float: left; 
     margin: 3px 0.25px 0px 0px;

@@ -186,11 +186,11 @@
 {% if BANNER %}
     <script src="{{ SITEURL }}/theme/js/bodypadding.js"></script>
 {% endif %}
+{% block scripts %}{% endblock %}
+
 {% include 'includes/github-js.html' %}
-{% include 'includes/disqus_script.html' %}
 {% include 'includes/ga.html' %}
 {% include 'includes/piwik.html' %}
-
-{% block scripts %}{% endblock %}
+{% include 'includes/disqus_script.html' %}
 </body>
 </html>

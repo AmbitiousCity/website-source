@@ -26,6 +26,8 @@ Is building high the only way to achieve density?
 
 |
 
+	Density has advantages for cities including compactness and reduced services costs. Usually, cities address density concerns is by building high. But is this the only, or the best way to create density?
+
 Toronto is currently experiencing a vertical building boom. Three and four story buildings are being replaced by high-rises, some of which are eighty stories tall. This increases the density of the city, which has many advantages including compactness and reduced services costs. For instance, locating people near existing transit hubs saves building new transit lines, which many governments are reluctant or incapable of providing. However, not everyone likes the idea of a Manhattan or Hong Kong lifestyle if they are used to a much lower density.
 
 High-rises depend on elevators, yet many cities developed before their invention. Prior to elevators people had to walk up stairs. The maximum height that people were willing to walk up was about five or six stories. The European pattern was to achieve density by blanketing the city with large blocks that are five or six stories tall, accessible (in theory) without elevators. Often there are courtyards in the middle of these blocks. This approach greatly reduces sprawl but depends on a type of top-down planning and development control foreign to more market-driven locales.

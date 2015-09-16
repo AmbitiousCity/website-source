@@ -26,6 +26,8 @@ Are people becoming globalized?
 
 |
 
+	People now gathered at the Budapest train station seem interested in testing a new form of globalization--that of the free movement of people, especially when their lives are at stake. If you can ship a toaster, a barrel of crude oil across an international boundary with minimum fuss why not a family threatened with destruction?
+
 This post is only indirectly relevant to the notion of an Ambitious City but seems so startling that I have to write about it. The last few weeks have seen a crisis of people fleeing many countries, most notably Syria, which has been largely destroyed by war. A huge number of people are attempting to gain access to Germany, via Austria and Hungary. 
 
 Germany, without much warning, has become the new migration magnet at the center of Europe. It is relatively easy to get to from the Middle East. You don't have to swim across an ocean. It is rich and economically powerful. Its social services are good. Most of its cities are very attractive. 

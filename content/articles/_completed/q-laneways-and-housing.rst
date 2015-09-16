@@ -25,6 +25,7 @@ Is laneway housing a sensible approach for increasing urban density?
 
 |
 
+	Would laneway construction be a creative and ultimately beneficial disruption of the city or an inefficient use of scarce municipal resources?
 
 Many North American cities have systems of laneways which run parallel to the normal street patterns. Given that lots sizes are generous in many places and that land is a scarce resource in downtown cores, people naturally are clamoring to build in laneways. They constitute a huge underutilized land inventory.
 
