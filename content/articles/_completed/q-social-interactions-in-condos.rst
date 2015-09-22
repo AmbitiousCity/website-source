@@ -7,6 +7,7 @@ Should condos be designed to encourage more social interaction?
 :category: Question
 :subcategory:
 :tags: Social interaction
+
 :summary: In design and marketing of condos the emphasis is on privacy and exclusivity, the kind that can lead to social isolation. Do all condo dwellers really like all this privacy and exclusivity or would they prefer just a bit more community-building features in the design of their buildings? 
 
 	.. figure:: /images/1030265.RW2.jpg
@@ -37,19 +38,15 @@ In condos, collective spaces are often limited to lobbies, which are sometimes q
 
 One social aspect of condo buildings that tends to be over-emphasized in condo billboards is the outstanding social amenity that their roof decks promise their residents. These ads suggest impressive levels of luxury and exclusivity on these decks: cocktails on the lounge, barbecues with your closest friends, with amazing views of the city below. A nice roof deck in the downtown core of Toronto can indeed provide good times but I suspect such promises of conviviality are overblown; they suggest a level of social interaction that seldom takes place. 
 
-Compare this with the modern open offices that well-funded tech startups often inhabit. These are purposively designed to encourage informal social interaction like that found at water coolers or the new espresso machine. The goal is for the office to become a place to exchange ideas and build group cohesion, which is so important for creative and knowledge-based pursuits. But there doesn't seem to be an equivalent to the water cooler in a condo. No one seems to spend too much time designing interesting social interactions that might take place within them. 
+Compare this with the modern open offices that well-funded tech startups often inhabit. These are purposively designed to encourage informal social interaction like that found at water coolers or the new espresso machine. The goal is for the office to become a place to exchange ideas and build group cohesion, which is so important for creative and knowledge-based pursuits. But there doesn't seem to be an equivalent to the water cooler in a condo. No one seems to spend too much time designing interesting social interactions that might take place within them.
 
-.. raw:: html
+.. container::
+	:name: g1
 
-	<!DOCTYPE html>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="/code/css/graphParts.css">
-	<body><script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+	.. raw:: html
 
-	<script src="/code/javascript/graph-d3.js?graphA=g-social-interactions-in-condos.json;thisNode=condos">
-	</script>
+		<script src="/code/javascript/graph-d3.js?name=g1;graph=g-social-interactions-in-condos.json;thisNode=condos">
+		</script>
 
-
-
-
+|
 

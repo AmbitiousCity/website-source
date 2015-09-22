@@ -35,15 +35,15 @@ Cities are often be reluctant to allow widespread laneway development since that
 
 If servicing costs (that might be born by the city as whole) were not an issue then the question arises what a city might look like if all laneways were built upon? Would it make the city more attractive, functional or interesting? [I think it probably would]. Or--being devil's advocate here--would it mean that scarce municipal resources are allocated to a relatively privileged part of society--those  who are well-off enough to consider building detached residences in laneways, but not so well-off that they can afford the sky-high costs of available street-side properties?
 
-.. raw:: html
+.. container::
+	:name: g1
 
-	<!DOCTYPE html>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="/code/css/graphParts.css">
-	<body><script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+	.. raw:: html
 
-	<script src="/code/javascript/graph-d3.js?graphA=g-laneways-and-housing.json;thisNode=laneways">
-	</script>
+		<script src="/code/javascript/graph-d3.js?name=g1;graph=g-laneways-and-housing.json;thisNode=laneways">
+		</script>
+
+|
 
 
 

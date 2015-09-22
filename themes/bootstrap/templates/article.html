@@ -86,12 +86,17 @@
                     </div>
                 </div>
                 {{ article.content }}
+                <!-- NOTE add graphs here -->
             </div>
             <!-- /.entry-content -->
             {% include 'includes/related-posts.html' %}
             {% include 'includes/addthis.html' %}
+            <!-- see: article.html line 93-->
+            <!-- {% include 'includes/d3_graphs.html' %} -->
+            <!-- see: article.html line 95-->
             {% include 'includes/comments.html' %}
-        </article>
+        </article> 
     </section>
-
 {% endblock %}
+
+

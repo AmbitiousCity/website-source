@@ -42,15 +42,15 @@ Another way of looking at it--possibly related to the first, is that most people
 
 The Germany-bound travelers in Budapest seem to recognize--correctly I believe--that there are some countries that will not turn refugees away from their shores or borders if these refugees are lucky and resourceful enough to reach them. In a world riven by terrible conflict in which innocents perish as a remarkable rate, this gives great incentives for many to begin remarkably perilous journeys.
 
-.. raw:: html
+.. container::
+	:name: g1
 
-	<!DOCTYPE html>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="/code/css/graphParts.css">
-	<body><script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+	.. raw:: html
 
-	<script src="/code/javascript/graph-d3.js?graphA=g-are-people-becoming-globalized.json;thisNode=refugees">
-	</script>
+		<script src="/code/javascript/graph-d3.js?name=g1;graph=g-are-people-becoming-globalized.json;thisNode=refugees">
+		</script>
+
+|
 
 
 

@@ -39,16 +39,13 @@ How to achieve density is a hot topic for a city like Toronto but seldom do you 
 In Toronto's downtown core you tend to see two patterns: first, some very tall residential building with impressive residential densities, and second, low-density legacy neighbourhoods, many of which are very attractive, yet still have densities too low to reduce sprawl. If these older neighbourhoods are high-status enough, then they are under no immediate threat of significant densification. What seems to be missing here is the middle ground: buildings that are medium density in which people might not need adopt a *Blade Runner-like* lifestyle all at once.
 
 
-.. raw:: html
+.. container::
+	:name: g1
 
-	<!DOCTYPE html>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="/code/css/graphParts.css">
-	<body><script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+	.. raw:: html
 
-	<script src="/code/javascript/graph-d3.js?graphA=g-is-building-high-the-only-way-to-achieve-density.json;thisNode=q-is-building-high-the-only-way-to-achieve-density">
-	</script>
+		<script src="/code/javascript/graph-d3.js?name=g1;graph=g-is-building-high-the-only-way-to-achieve-density.json;thisNode=q-is-building-high-the-only-way-to-achieve-density">
+		</script>
 
-
-.. :save_as: index.html
+|
 

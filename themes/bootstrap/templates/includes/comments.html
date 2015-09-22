@@ -1,11 +1,11 @@
 {% if DISQUS_SITENAME %}
     <hr/>
     <section class="comments" id="comments">
-        <h2>Comments</h2>
+        <!-- <h2>Comments</h2> -->
 
         <div id="disqus_thread"></div>
         <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            /* * * comments.html line 8 CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
             var disqus_shortname = '{{ DISQUS_SITENAME }}'; // required: replace example with your forum shortname
 
             {% if article %}
@@ -24,7 +24,7 @@
                 this.language = "{{ DEFAULT_LANG }}";
             };
 
-            /* * * DON'T EDIT BELOW THIS LINE * * */
+            /* * * see: comments.html line 27 DON'T EDIT BELOW THIS LINE * * */
             (function () {
                 var dsq = document.createElement('script');
                 dsq.type = 'text/javascript';
