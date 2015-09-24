@@ -17,7 +17,7 @@ FEED_DOMAIN = 'https://ambitiouscity.github.io'
 #this feed doesn't work (because of redirect): http://ambitiouscity.com/feeds/all.atom.xml
 
 GOOGLE_ANALYTICS = 'UA-44332815-1'
-# DISQUS_SITENAME = "ambitiouscity"
+DISQUS_SITENAME = "ambitiouscity"
 # DISQUS_DISPLAY_COUNTS = True
 
 ###################################

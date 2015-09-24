@@ -5,8 +5,8 @@ PELICANOPTS=
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
-CONFFILE=$(BASEDIR)/pelicanconf.py
-PUBLISHCONF=$(BASEDIR)/publishconf.py
+CONFFILE=$(BASEDIR)/pelicanTestConf.py
+PUBLISHCONF=$(BASEDIR)/pelicanOutputConf.py
 PORT=8000
 
 FTP_HOST=localhost
