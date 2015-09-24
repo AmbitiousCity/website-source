@@ -1,8 +1,40 @@
-body {
-    padding-top: 70px;
+
+/*see: http://chdoig.github.io/create-pelican-blog.html*/
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700);
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.boxSmall,.boxLarge{font-family:'Open Sans';}
+
+/*@import url(https://fonts.googleapis.com/css?family=Merriweather Sans:300,400);
+/*<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>*/
+/*<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700|Merriweather+Sans:300,400' rel='stylesheet' type='text/css'>*/
+
+
+.entry-content p {
     font-size: 13px; /*15px;*/
+    font-family: 'Merriweather';
+    font-weight: 400;
+}
+   
+p.summary {
+    font-size: 13px;
+    font-family: 'Merriweather';
+    font-weight: 400;
+    color: #888;
+    margin: 0px 0px 25px 0px;
 }
 
+p.first {
+    font-family: 'Merriweather';
+    font-weight: 400;
+    color: #888;
+}
+
+p.caption {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+/*blockquote style used by summary section at top of each article*/
 blockquote {
     font-style: italic;
 }
@@ -67,6 +99,7 @@ blockquote {
 .label-default  {
     background-color: #E7E7E7;
     color: #333;
+
 }
 
 .post-info {
@@ -99,12 +132,12 @@ blockquote {
 }
 
 h1, .h1 {
-  font-size: 24px; /*39px;*/
+  font-size: 28px; /*39px;*/
   font-weight: 500; /*100-900; 400=normal, 700=bold*/
 }
 
 h2, .h2 {
-  font-size: 16px; /*32px;*/
+  font-size: 22px; /*32px;*/
   font-weight: 500; 
   margin-top: 24px;
 }
@@ -318,7 +351,8 @@ figure.floatcenter, .align-center {
 
 #banner h1 {
     color: #fff;
-    font-family: "HelveticaNeue-CondensedBold","Helvetica Neue CE 600 Condensed","Helvetica Neue LT Condensed","Helvetica Neue 600 Condensed","HelveticaNeue-BoldCondensed","Helvetica Neue BoldCondensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans", sans-serif;
+    /*font-family: 'Merriweather', serif;*/
     font-size: 60px; /*60px*/
     font-stretch: condensed;
     font-weight: 700;

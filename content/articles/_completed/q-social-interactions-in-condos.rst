@@ -7,7 +7,6 @@ Should condos be designed to encourage more social interaction?
 :category: Question
 :subcategory:
 :tags: Social interaction
-
 :summary: In design and marketing of condos the emphasis is on privacy and exclusivity, the kind that can lead to social isolation. Do all condo dwellers really like all this privacy and exclusivity or would they prefer just a bit more community-building features in the design of their buildings? 
 
 	.. figure:: /images/1030265.RW2.jpg
@@ -17,6 +16,10 @@ Should condos be designed to encourage more social interaction?
 
 |
 
+.. class:: .summary
+
+	In the design and marketing of condos the emphasis is on privacy and exclusivity, the kind that can lead to social isolation. Do all condo dwellers really like all this privacy and exclusivity or would they prefer just a bit more community-building features in the design of their buildings? 
+
 .. figure:: /images/1030265.RW2.jpg
 	:alt: photo by Michael Cumming
 	:figwidth: 100%
@@ -25,8 +28,6 @@ Should condos be designed to encourage more social interaction?
 	New condo buildings in Toronto. Photo: Michael Cumming, 2014
 
 |
-
-	In the design and marketing of condos the emphasis is on privacy and exclusivity, the kind that can lead to social isolation. Do all condo dwellers really like all this privacy and exclusivity or would they prefer just a bit more community-building features in the design of their buildings? 
 
 In Toronto these days a huge condo construction boom is taking place. Often these condo towers are reasonably attractive, built with modern materials and bold colour schemes. Yet, other than the fact that may have convenient downtown locations, they often seem like socially isolating places to live. Residents walk into their lobby, get into an elevator, get off on their floor and then scurry along an interior corridor to their unit. There seems to be little opportunity to interact with their neighbours. The social realm tends not be celebrated in such developments. 
 

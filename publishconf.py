@@ -31,8 +31,8 @@ DEFAULT_LANG = u'en'
 #GITHUB_URL = 'http://github.com/MichaelCumming/'
 PDF_GENERATOR = False
 PATH = 'content'
-CACHE_CONTENT = True
-LOAD_CONTENT_CACHE = True
+CACHE_CONTENT = False
+LOAD_CONTENT_CACHE = False
 
 # custom page generated with a jinja2 template
 #TEMPLATE_PAGES = {'pages/jinja2_template.html': 'jinja2_template.html'}

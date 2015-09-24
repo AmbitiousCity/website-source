@@ -8,7 +8,7 @@ Is building high the only way to achieve density?
 :category: Question
 :subcategory:
 :tags: Density
-:summary: Density has advantages for cities including compactness and reduced services costs. Usually, cities address density concerns is by building high. But is this the only, or the best way to create density?
+:summary: Density has advantages for cities including compactness and reduced service costs. Usually, cities address density concerns by building high. But is this the only, or the best way to create density?
 	
 	.. figure:: /images/1080970.JPG
 		:alt: photo by Michael Cumming
@@ -16,6 +16,10 @@ Is building high the only way to achieve density?
 		:width: 200px
 
 |
+
+.. class:: summary
+
+	Density has advantages for cities including compactness and reduced service costs. Usually, cities address density concerns by building high. But is this the only, or the best way to create density?
 
 .. figure:: /images/1080970.JPG
 	:alt: photo by Michael Cumming
@@ -25,8 +29,6 @@ Is building high the only way to achieve density?
 	High-rises growing from parking lots in Toronto. Photo: Michael Cumming, 2014
 
 |
-
-	Density has advantages for cities including compactness and reduced services costs. Usually, cities address density concerns is by building high. But is this the only, or the best way to create density?
 
 Toronto is currently experiencing a vertical building boom. Three and four story buildings are being replaced by high-rises, some of which are eighty stories tall. This increases the density of the city, which has many advantages including compactness and reduced services costs. For instance, locating people near existing transit hubs saves building new transit lines, which many governments are reluctant or incapable of providing. However, not everyone likes the idea of a Manhattan or Hong Kong lifestyle if they are used to a much lower density.
 
