@@ -8,7 +8,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.boxSmall,.boxLarge{font-family:'Open 
 /*<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>*/
 /*<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700|Merriweather+Sans:300,400' rel='stylesheet' type='text/css'>*/
 
+body {
+    font-size: 13px;
+}
 
+/*normal boy text for article*/
 .entry-content p {
     font-size: 13px; /*15px;*/
     font-family: 'Merriweather';
@@ -19,19 +23,27 @@ p.summary {
     font-size: 13px;
     font-family: 'Merriweather';
     font-weight: 400;
-    color: #888;
+    color: #777;
     margin: 0px 0px 25px 0px;
 }
 
 p.first {
     font-family: 'Merriweather';
     font-weight: 400;
-    color: #888;
+    color: #777;
 }
 
 p.caption {
     font-family: 'Open Sans';
     font-weight: 400;
+}
+
+footer {
+    font-size: 13px;
+}
+
+footer.post-info {
+    font-size: 13px;
 }
 
 /*blockquote style used by summary section at top of each article*/
@@ -132,7 +144,7 @@ blockquote {
 }
 
 h1, .h1 {
-  font-size: 28px; /*39px;*/
+  font-size: 26px; /*39px;*/
   font-weight: 500; /*100-900; 400=normal, 700=bold*/
 }
 
