@@ -59,7 +59,7 @@ blockquote {
 .boxSmall {
     color: #444;
     background: #eee;
-    width: 60%;
+    width: 100%;
     font-size: 16px;
     font-weight: bold;
     padding: 10px 10px;
@@ -71,7 +71,7 @@ blockquote {
     /*color: #555;*/
     color: orange;
     background: #eee;
-    width: 60%;
+    width: 100%;
     /*font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;*/
     font-size: 26px;
     font-weight: normal;
