@@ -68,7 +68,7 @@ MENUITEMS = [
 	# ('Ideas', '/tag/idea.html'),
 	('About', '/pages/about/'),
     # ('Subscribe', 'http://eepurl.com/xYI8j')
-    ('Subscribe', 'pages/subscribe/')
+    ('Subscribe', '/pages/subscribe/')
 ]
 
 # if you only want to generate the page you are working on (speeds things up)
