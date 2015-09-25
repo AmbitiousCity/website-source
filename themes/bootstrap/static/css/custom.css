@@ -36,6 +36,7 @@ p.first {
 p.caption {
     font-family: 'Open Sans';
     font-weight: 400;
+    color: #777;
 }
 
 footer {

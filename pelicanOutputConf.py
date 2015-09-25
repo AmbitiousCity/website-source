@@ -13,8 +13,8 @@ from pelicanconf import *
 
 SITEURL = 'https://ambitiouscity.github.io' 
 FEED_DOMAIN = 'https://ambitiouscity.github.io'
-#valid feed FYI: http://ambitiouscity.github.io/feeds/all.atom.xml
-#this feed doesn't work (because of redirect): http://ambitiouscity.com/feeds/all.atom.xml
+#valid feed: http://ambitiouscity.github.io/feeds/all.atom.xml
+#this works too: http://ambitiouscity.com/feeds/all.atom.xml
 
 GOOGLE_ANALYTICS = 'UA-44332815-1'
 DISQUS_SITENAME = "ambitiouscity"
@@ -67,7 +67,8 @@ MENUITEMS = [
     # ('Observations', '/category/observation/'),
 	# ('Ideas', '/tag/idea.html'),
 	('About', '/pages/about/'),
-    ('Subscribe', 'http://eepurl.com/xYI8j')
+    # ('Subscribe', 'http://eepurl.com/xYI8j')
+    ('Subscribe', 'pages/subscribe/')
 ]
 
 # if you only want to generate the page you are working on (speeds things up)

@@ -18,7 +18,7 @@ DEFAULT_LANG = u'en'
 PDF_GENERATOR = False
 PATH = 'content'
 
-#speed things up?
+#html parser error related?
 CACHE_CONTENT = False
 LOAD_CONTENT_CACHE = False
 
@@ -55,7 +55,8 @@ MENUITEMS = [
     # ('Observations', '/category/observation/'),
 	# ('Ideas', '/tag/idea.html'),
 	('About', '/pages/about/'),
-    ('Subscribe', 'http://eepurl.com/xYI8j')
+    # ('Subscribe', 'http://eepurl.com/xYI8j')
+    ('Subscribe', 'pages/subscribe/')
 ]
 
 # if you only want to generate the page you are working on (speeds things up)
