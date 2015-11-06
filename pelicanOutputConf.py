@@ -17,8 +17,7 @@ FEED_DOMAIN = 'https://ambitiouscity.github.io'
 #this works too: http://ambitiouscity.com/feeds/all.atom.xml
 
 GOOGLE_ANALYTICS = 'UA-44332815-1'
-DISQUS_SITENAME = None
-# DISQUS_SITENAME = "ambitiouscity"
+# DISQUS_SITENAME = 'ambitiouscity' omitted 2015-11-06 because no one commented
 # DISQUS_DISPLAY_COUNTS = True
 
 ###################################
