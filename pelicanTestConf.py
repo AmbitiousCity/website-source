@@ -125,7 +125,7 @@ DELETE_OUTPUT_DIRECTORY = False #if true, deletes folder before generating all n
 
 # SITEURL = ''
 # GOOGLE_ANALYTICS = 'UA-44332815-1'
-DISQUS_SITENAME = "ambitiouscity"
+# DISQUS_SITENAME = "ambitiouscity"
 # DISQUS_DISPLAY_COUNTS = True
 ENABLE_D3 = True
 
