@@ -7,22 +7,14 @@ Should cities be designed top-down or bottom-up?
 :subcategory:
 :tags: Design Process
 :status: draft
-:summary: Why do so many new buildings have such uninteresting basic forms?
+:summary: Should cities be designed top-down or bottom-up?
 
-	.. figure:: /images/_1020176.RW2.jpg
-		:alt: photo by Michael Cumming
-		:figwidth: 100%
-		:width: 200px
-
-|
-
-.. figure:: /images/_1020176.RW2.jpg
-	:alt: photo by Michael Cumming
-	:figwidth: 100%
-	:width: 400px
-
-	New condo building in Toronto. Photo: Michael Cumming, 2013
-
-|
 
 Cities usually evolve over time. They are built incrementally by many hands. They are layered with buildings from many ages in many styles. This layering--even in young cities like Toronto--give the place its interest. 
+
+Cities that have been designed top-down are sometimes nice: Part of Haussmann's Paris, Manhattan come to mind. Bottom-up cities, which evolved over millennium, such as hill towns in Tuscany, London's medieval City core. 
+
+This is how we view the current situation:
+
+- Cities are too big to controlled by single expansive egos. The days of controlled plans that encompass both urban structures and the design of buildings is over. 
+- 

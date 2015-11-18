@@ -1,13 +1,13 @@
-Should Toronto be designed to recognize its native population?
+Why are aboriginal populations invisible in most cities?
 =====================================================================
 
-:slug: q-where-are-the-aboriginals-in-our-city
-:date: 2015-09-16
+:slug: q-why-are-aboriginal-populations-invisible-in-most-cities
+:date: 2015-11-17
 :category: Question
 :subcategory:
 :tags: Diversity
 :status: draft
-:summary: XXX?
+:summary: Why are aboriginal populations invisible in most cities?
 
 	.. figure:: /images/1020342-002.jpg
 		:alt: photo by Michael Cumming
@@ -72,8 +72,6 @@ This invisibility of First Nations communities in the urban context is one of th
 
 However, on the First Nations front the urban nature of aboriginal population is indeed paltry. The author John Lorinc discusses this in some depth in his excellent book. 
 
-.
-
 
 
 
@@ -85,4 +83,3 @@ However, on the First Nations front the urban nature of aboriginal population is
 .. [#second] The Native Canadian Centre of Toronto. http://ncct.on.ca/ 2015
 
 .. [#third] 
-
