@@ -12,8 +12,13 @@ body {
     font-size: 13px;
 }
 
+dt {
+    margin-top: 4px;
+}
+
 /*normal boy text for article*/
-.entry-content p {
+/* using comma, applies to both dd (defs) and normal entry content */
+dd, .entry-content p {
     font-size: 13px; /*15px;*/
     font-family: 'Merriweather';
     font-weight: 400;
