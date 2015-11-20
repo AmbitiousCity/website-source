@@ -2,6 +2,7 @@ What can cities do to improve access to nature?
 ===========================================================================
 
 :slug: q-city-dwellers-and-access-to-nature
+:date: 2015-11-19
 :category: Question
 :subcategory:
 :tags: Amenity

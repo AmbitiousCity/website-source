@@ -2,6 +2,7 @@ We live in an age of refugees
 =====================================================
 
 :slug: o-the-age-of-refugees
+:date: 2015-11-18
 :category: Observation
 :subcategory:
 :tags: Conflict
